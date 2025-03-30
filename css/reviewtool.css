@@ -1,0 +1,19 @@
+.commbutton {
+  width: 40px;
+  height: 150px;
+  margin-top: 10px;
+  background: linear-gradient(to top, #1b9d71, #3c7e83);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: grid;
+}
+
+.commbutton .commbuttontext {
+  width: 150px;
+  font-size: 16px;
+  color: white;
+  margin-top: 0px;
+  margin-left: 10px;
+  text-align: center;
+  transform: rotate(-90deg);
+}
