@@ -1,0 +1,566 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title class="courseName"></title>
+	<link href="framework/css/font-linear.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="framework/css/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/jqueryMobile.css">
+	<link rel="stylesheet" type="text/css" href="framework/css/themify-icons.css"> 
+	<link rel="stylesheet" type="text/css" href="framework/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="framework/css/themes/cs-select.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/themes/cs-skin-slide.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/themes/demo.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/jquery.mCustomScrollbar.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/main.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="framework/css/media_mobile.css"/>
+<link rel="stylesheet" type="text/css" href="framework/css/media_tablet.css"/> 	 -->
+	<!-- <link rel="stylesheet" type="text/css" href="framework/css/media.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/media_tablet.css"/> 
+	  <link rel="stylesheet" type="text/css" href="framework/css/media_mobile.css"/>   -->
+	 <!--  <link rel="stylesheet" type="text/css" href="framework/css/media_iphone5s.css"/>   
+  <link rel="stylesheet" type="text/css" href="framework/css/media_iphone7.css"/>  -->
+	<link rel="stylesheet" type="text/css" href="templates/css/clicknlearn.css"/>
+	<link rel="stylesheet" type="text/css" href="framework/css/percentage.css"/>	
+	<link rel="stylesheet" type="text/css" href="framework/css/circle.css"/>	
+	<link rel="stylesheet" type="text/css" href="framework/css/microfiche.css">
+    <link rel="stylesheet" type="text/css" href="framework/css/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="framework/css/css/owl.theme.default.css">	
+	<link href="framework/js/plugins/mediaelement/mediaelementplayer.css" rel="stylesheet">	
+	<link rel="stylesheet" href="https://mlcoursereviewtool.mediantlabs.com/public/cdn/reviewtool.css">
+	<script src="framework/js/plugins/jquery-min1.10.js"></script>
+	<script src="framework/js/plugins/jquery-ui.js"></script> 	
+	<script src="framework/js/plugins/jquery.ui.touch-punch.js"></script> 
+	<script src="framework/js/plugins/jqueryMobile.js"></script> 
+	<script src="framework/js/plugins/JquerySwipe.js"></script> 
+	<script src="framework/js/plugins/classie.js"></script>
+	<script src="framework/js/plugins/selectFx.js"></script>  
+	<script src="framework/js/plugins/mediaelement/mediaelement-and-player.js"></script>
+	<script src="framework/js/plugins/jQuery.print.js"></script>
+	<script src="framework/js/plugins/html2canvas.js"></script>
+	<script type="text/javascript" src="framework/js/plugins/jquery.mCustomScrollbar.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="framework/js/plugins/preloadjs.min.js"></script> 	
+	<script  type="text/javascript" src="framework/js/plugins/owlcarousel/owl.carousel.js"></script>
+	<script src="framework/js/DetectDevice.js"></script>
+	<script src="framework/js/plugins/wow.min.js"></script>
+	<script src="framework/js/plugins/animations/jquery.html5Loader.line.js"></script>
+	<script src="framework/js/plugins/jquery.html5Loader.js"></script>
+	<script src="framework/js/preloader.js"></script>
+	<script src="framework/js/main.js"></script>
+	<script src="framework/js/menu.js"></script>
+	<script src="framework/js/audioplayer.js"></script>
+	<script src="framework/js/glossary.js"></script>
+	<script src="framework/js/search.js"></script>
+	<script src="framework/js/bookmark.js"></script>
+	<script src="framework/js/learningaids.js"></script>
+	<script src="framework/js/notes.js"></script>
+	<script src="framework/js/print.js"></script>
+	<script src="https://mlcoursereviewtool.mediantlabs.com/public/cdn/reviewtool.js"></script>
+</head>
+<body oncontextmenu="return false">
+	<!-- Loading Animation -->
+	<div id="html5Loader" style="display:none;"></div>
+	<div class="preloaderBg" style="display:none;"></div>
+	<div class="Screen_Tap_Instruction" style="display:none;"><img style="width: 100%;" src="framework/images/Screen_Tap_Instruction.png"/></div>
+	<div id="preloader" class="preloader" style="display:none;">
+		<div class="circleDiv"></div>
+		<div class="mainprogress">
+			<div class="progressDiv"></div>
+			<span class="main_percent">0%</span>
+		</div>
+	</div>
+	<!-- Loading Animation -->
+	<!-- Module Selection Menu --> 
+	<div class="sub_menu_arw_open_plus" style="display:none;"></div>		
+	<div class="modal common_popup modulepopupLogout" style="display:none; ">
+		<div class="modal-content pop_container module_pop_container wow fadeIn" data-wow-duration="1s">
+			<!-- <div class="header">
+				<div class="module_index_header">
+					<div class="inner_container index_inner_container">
+						<div class="left_end fleft">
+							<div class="logo fleft">
+								<a href="#"><img src="framework/images/logo_index.png"></img></a>
+							</div>	
+							
+						</div>	
+						<div class="title">
+								<h1 class="courseName"></h1>
+							  <div class="tooltip">Tooltip!</div>
+							</div>
+						<div class="right_part">						
+							<ul class="help_items help_menu_open_plus help-new-drop" style="display:none;">
+								<li class="border_none" style="border-bottom: 0px !important;"><img class="img_right" src="framework/images/right.png"></li>
+								<li title="glossAltTxt" class="gloss_clkbtn glossTxt"></li>
+								<li title="Learning Aids" class="lAids_clkbtn learningAidTxt"></li>
+								<li title="Print" class="printCourse_clkbtn printTxt"></li>
+								<li title="Help" class="helpCMenu_clkbtn helpTxt"></li>
+							</ul>
+							<div title="Tools" class="course_plus help_menu_click_plus" style="display:none;"></div>
+							<div title="Exit" class="course_logout_clkbtn_1" style="margin: auto;padding: 0.8%;">
+								<img src="framework/images/cross.png" >
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div> -->
+			 <div class="header">
+				<div class="module_index_header">
+					<div class="inner_container index_inner_container">
+					<div class="lft_dis_inli">
+					<div class="left_end fleft">
+							<div class="logo fleft">
+								<a href="#"><img src="framework/images/logo_index.png"></img></a>
+							</div>	
+							
+						</div>	
+						<div class="title">
+								<h1 class="courseName"></h1>
+							  <div class="tooltip">Tooltip!</div>
+							</div>
+					</div>
+					<div class="rit_dis_flx">
+					<ul class="help_items help_menu_open_plus help-new-drop" style="display:none;">
+								<li class="border_none" style="border-bottom: 0px !important;"><img class="img_right" src="framework/images/right.png"></li>
+								<li title="glossAltTxt" class="gloss_clkbtn glossTxt"></li>
+								<li title="Learning Aids" class="lAids_clkbtn learningAidTxt"></li>
+								<li title="Print" class="printCourse_clkbtn printTxt"></li>
+								<li title="Help" class="helpCMenu_clkbtn helpTxt"></li>
+							</ul>
+					<div title="Tools" class="course_plus help_menu_click_plus" style="display:none;"></div>
+							<div title="Exit" class="course_logout_clkbtn_1" style="margin: auto;padding: 0.8%;">
+								<img src="framework/images/red cross.png" >
+							</div>
+					</div>
+			</div>
+			</div>
+			</div>
+			<div class="inner_container index_inner_container srch_right">
+				<div class="module_selector" style="height:auto;width: 100%; margin:auto; position: relative;">	
+					<div class="srch"><input type="search" id="pre-rendered-example-input" placeholder="Search Modules" class="srch_module" maxlength="30"></input>
+					<div class="clear"></div>								
+					<div class="NoOfModules"></div>
+					<div class="clear"></div>
+					</div>
+					<div class="moduleTopDiv">
+						<div id="leftMenuBtn"></div>
+						<div class="moduleContainer">
+							<div class="owl-carousel owl-theme" id="module_list"></div>
+						</div>	
+						<div id="rightMenuBtn"></div>
+					</div>
+					<div class="clear"></div>	
+				</div>							
+			</div>
+		</div>		
+	</div>
+	<!-- Module Selection Menu -->
+	<!-- Course Exit Popup -->
+	<div class="modal common_popup popupLogout" style="display:none;">
+		<div class="modal-content pop_container feedback_pop_container wow fadeIn" data-wow-duration="1s">
+			<hr class="border_design"></hr>
+			<div class="feedback_pop">
+				<h3 class="confirmTitle"></h3>
+				<p class="feedback_instruction text-center"><span class="exitInsTxt"></span><br><i class="text-center logoutPop_print_text exitNotesInsTxt" style="display:none"></i></p>
+			</div>
+			<div class="text-center log_s_n">
+				<a href="#" class="logoutPop_clk_btn text-center pop_radius_btn_1 yesTxt" data-wow-duration="1s"></a>
+				<a href="#" class="logoutPop_close_btn text-center pop_radius_btn_1 noTxt" data-wow-duration="2s"></a>
+				<a href="#" style="display:none" class="logoutPop_print_btn text-center pop_radius_btn_1 printTxt" data-wow-duration="2s"></a>
+			</div>
+		</div>
+	</div>
+	<!-- Course Exit Popup -->
+	<!-- SEARCH_POPUP -->
+	<div class="modal common_popup popupSearch" style="display:none;">
+		<div class="modal_content pop_container wow fadeIn" data-wow-duration="1s">
+			<div class="popup searchpopup">
+				<div class="pop_close_btn searchPop_close_btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/Search_popup.png"><span class="searchTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="pop_search_options text-left" id="" style="width:100%;">
+						<input id="glsinput" type="search" placeholder=""></input>
+					</div>
+					<div class="noSrchdata" style="display:none;color:#000"><p class="searchResultsTxt"></p></div>
+					<div class="clear"></div>
+					<div class="search_list">
+						<ul class="pop_list srch_list"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- SEARCH_POPUP -->
+	<!-- LMS_Bookmark_POPUP -->
+	<div class="modal common_popup popupBookmark" style="display:none;">
+		<div class="modal-content pop_container feedback_pop_container wow fadeIn" data-wow-duration="1s">
+			<hr class="border_design"></hr>
+			<div class="feedback_pop">
+				<h3 class="confirmTitle"></h3>
+				<p class="feedback_instruction text-center bookmarkInsTxt"></p>
+			</div>
+			<div class="text-center log_s_n">
+				<a href="#" class="BookmarkPop_clk_btn text-center pop_radius_btn_1 yesTxt" data-wow-duration="1s"></a>
+				<a href="#" class="BookmarkPop_close_btn text-center pop_radius_btn_1 noTxt" data-wow-duration="2s"></a>
+			</div>
+		</div>
+	</div>
+	<!-- LMS_Bookmark_POPUP -->
+	<!--Tool Popup's -->
+	<div class="modal common_popup popupShell" style="display:none;">
+		<div class="pop_container wow fadeIn" data-wow-duration="1s">
+			<!-- BOOKMARK_POPUP -->
+			<div class="modal-content popup shellpopup bookmarkpop" style="display:none;">
+				<div class="pop_close_btn shellPop_close_btn pop-close-btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="text-center bookmark_view">
+					<h3 id="bkmrk_btn" class="hdng_rt_btn bookmarkbtnTxt"></h3>
+				</div>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img class="bookmark_img" src="framework/images/bookmark.png"><span class="bookmarkTxtTitle"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="bk_list">
+						<ul class="pop_list bkmrk_list"></ul>
+					</div>
+				</div>
+			</div>
+			<!-- BOOKMARK_POPUP -->
+			<!-- GLOSSARY_POPUP -->
+			<div class="modal-content popup shellpopup glossaryPop" style="display:none;">
+				<div  class="pop_close_btn CourseMenu_close_btn"><a href="#" style="margin:auto;"><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading gloss_web">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/glossary_pop.png"><span class="glossTitleTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="pop_srch_options text-left" style="width:100%;">
+						<input class="gl_search" type="search" placeholder="Search"></input>
+					</div>
+					<div class="clear"></div>
+					<div class="nogls" style="display:none;color:#000"><p class="glossSearchTxt"></p></div>
+					<div class="glossary_left gloss_list">
+						<ul class="pop_list gls_list"></ul>
+					</div>
+					<div class="glossary_right gloss_desc">
+						<h3 class="gloss_sec_heading"></h3>
+						<div class="gloss_description"></div>
+					</div>
+				</div>
+				<div class="pop_mobile_heading ">
+					<div class="pop_hdrpart">
+						<h5 class="fleft gloss_title"><img src="framework/images/glossary_pop.png"><!-- <span class="glossTitleTxt"></span> -->
+						<span class="glossTitleTxt main-cls-glossary">GLOSSARY</span></h5>
+						<div class="pop_srch_options text-left" style="width:100%;">
+							<input class="gl_search" type="search" placeholder=""></input>
+						</div>
+						<div class="clear"></div>
+						<div class="nogls" style="color: rgb(0, 0, 0);"><p class="glossSearchTxt"></p></div>
+					</div>
+					<div class="glossary_left gloss_list gloss_content ">
+						<ul class="pop_list gls_list">
+							<li>
+								<h6></h6>
+							<div class="clear"></div>
+							</li>
+							<div class="gloss_description"></div>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- GLOSSARY_POPUP -->
+			<!-- LEARNINGAIDS_POPUP -->
+			<div class="modal-content popup shellpopup lrngAidPop" style="display:none;">
+				<div class="pop_close_btn CourseMenu_close_btn pop-close-btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/learningaids_blue.png"><span class="learningAidTxt" id="learningAidTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="lrng_container">
+						<ul class="pop_list resources_list">
+
+						</ul>
+					</div>
+					 
+				</div>
+			</div>
+			<!-- LEARNINGAIDS_POPUP -->
+			<!-- NOTES_POPUP -->
+			<div class="modal-content popup shellpopup notesPop" style="display:none">
+				<div class="pop_close_btn notes_close_btn pop-close-btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/notes_pop.png"><span class="notesTitleTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="notes_container">
+						<div class="notes_cnt_scroll notesCont" id="printarea">
+
+						</div>
+					</div>					 
+					<div class="text-center notbtn" data-wow-duration="1s">
+						<a href="#" class="notes_print_btn cyudisabled printTitleTxt" style="cursor:default"></a>
+					</div>
+				</div>
+			</div>
+			<!-- NOTES_POPUP -->
+			<!-- PRINT_POPUP -->
+			<div class="modal-content popup shellpopup printPop" style="display:none">
+				<div class="pop_close_btn shellPop_close_btn pop-close-btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/print_pop.png"><span class="printTitleTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="pop_grey_box">
+						<div class="pop_box print_box text-center " data-wow-duration="1s">
+							<i class="ti-desktop"></i>
+							<p><span class="currscrnTxt"></span></p>
+							<a href="#" class="print_page printTitleTxt"></a>
+						</div>
+						<div class="pop_box text-center " data-wow-duration="2s">
+							<i class="ti-files"></i>
+							<p><span class="currModTxt"></span></p>
+							<a href="#" class="print_module printTitleTxt"></a>
+						</div>
+						<div class="pop_box text-center" data-wow-duration="3s">
+							<i class="ti-agenda"></i>
+							<p><span class="currCourseTxt">Current Course</span></p>
+							<a href="#" class="printCourse_clkbtn printTitleTxt"></a>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<!-- PRINT_POPUP -->
+			<!-- HELP_POPUP -->
+			<div class="modal-content popup shellpopup helpPop" style="display:none">
+				<div class="pop_close_btn shellPop_close_btn pop-close-btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/helpblue.png"><span class="helpTitleTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="pop_grey_box help_box text-center">
+						<!-- <h5 class="help_hdng">Help Content to be added</h5> -->
+						 <video id="helpVideo1" style="width: 100%;height:300px;" controls="" poster="../course/content_en/global/assets/videos/help.PNG" controls>
+					<source src="../course/content_en/global/assets/videos/help.mp4" type="video/mp4">
+  				</video> 
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-content popup shellpopup helpMenuPop" style="display:none">
+				<div class="pop_close_btn CourseMenu_close_btn pop-close-btn"><a href=""><img src="framework/images/cross_grey.png"></img></a></div>
+				<hr class="border_design"></hr>
+				<div class="pop_heading">
+					<div class="pop_hdrpart">
+						<h5 class="fleft"><img src="framework/images/helpblue.png"><span class="helpTitleTxt"></span></h5>
+						<div class="clear"></div>
+					</div>
+					<div class="pop_grey_box help_box text-center">
+						<!-- <h5 class="help_hdng">Help Content to be added</h5> -->
+						 <video id="helpVideo2" style="width: 100%;height:300px;" controls="" poster="../course/content_en/global/assets/videos/help.PNG" controls>
+					<source src="../course/content_en/global/assets/videos/help.mp4" type="video/mp4">
+  				</video> 
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Tool Popup's -->
+	<!-- Header Section -->
+	<div class="wrapper_header">
+
+ <div title="Exit" class="logout_clkbtn" style="margin: auto;padding: 0.8%;">
+			<img src="framework/images/red cross.png" >
+		</div>
+<div style=" background: #f4f4f3;">
+<div class="header_new">
+  <div class="leftcontain">
+	<div class="logo fleft mar_top_pixel">
+		<a title="Logo" href="#"><img src="framework/images/logo.png"></img></a>
+	</div>
+	<div class="modulecontinue_clkbtn modulecontinue_clkbtn_1 margin_top" title="Course Menu">
+		<img src="framework/images/Course_Menu.png" >
+	</div>
+	<div class="mob_dy margin_top">
+		<div title="Menu" href="#" class="menu_icon main_menu_click">
+			<img src="framework/images/Module_Menu.png" >
+	</div>
+	</div>
+	<div class="menu_items main_menu_open" style="display:none;"><div class="menu_items_div"></div></div>	
+	<div class=" mar_top_pixel mar_top_pxel_excel">
+	<h3 class="courseName title1-h3">ES40ACi Electrical Systems: Advanced ES40ACi || ES40ACi Electrical Systems: Advanced ES40ACi</h3>
+	<h1 class="moduleName title1-h1">Module name</h1>   
+	 <div class="tooltip">Tooltip!</div>  		 
+	</div>
+	
+</div><!--closing of left contain-->
+
+<div class="rightcontain">
+   <div id="revTool" class="revTool svg" title="Review" style="visibility: visible;">
+	<img src="framework/images/Review_Tool.png" >
+	</div>
+	
+   <div class="page_num mobile_page_num">
+	<div title="Screen Number" class="pgNum mobile_hdr_none">Screen:01/22</div>
+	</div>
+	<div class="right_btns">
+   <div class="mobile_hdr_none search search_clkbtn fleft"></div>
+   <div class="mobile_hdr_none sub_menu fright help_menu_click"></div>
+   <ul class="help_items help_menu_open" style="display:none;">
+								<li class="border_none" style="border-bottom: 0px !important;"><img class="img_right" src="framework/images/right.png"></li>
+								<li title="" class="gloss_modclkbtn glossTxt"></li>
+								<li title="Bookmark" class="bkmk_clkbtn bookmarkTxt"></li>
+								<li title="Notes" class="notes_clkbtn notesTxt"></li>
+								<li title="Feedback" class="fBk_clkbtn emailTxt"></li>
+								<li title="Print" class="print_clkbtn printTxt"></li>
+								<li title="Help" class="help_clkbtn helpTxt"></li>
+							</ul>
+   </div>
+   
+   
+   
+</div> <!--closing of right contain-->
+
+</div><!--wrappaer backgroumd-color div-->
+
+</div><!--closing of headre-->
+<div style="clear:both;"></div>
+
+<div class=" mobile_header">
+
+<div class="page_num mobile_page_num">
+	<div  title="Screen Number" class="pgNum">Screen:01/22</div>
+	</div>
+	<div class="right_btns">
+   <div class="search_clkbtn"><img src="framework/images/search.png"></div>
+   <div class="help_menu_click"><img src="framework/images/plus.png"></div>
+   
+   </div>
+
+	</div><!--closing of mobile header-->
+</div><!--closing of wrapper-->
+
+	<!-- Header Section -->	
+	<!-- Content Section -->
+	<div class="contentAreaFrame">
+		<!--- Sub Header Elements -->
+		<div class="">
+			<div class="sub_header">
+				<div class="remediationBtn"><a href="#" class="returnTxt"></a> <span class="remedPageNum"></span></div>
+				<button class="back_btn" style="margin-right:2px;padding-right:25px;padding-left:25px;"><b class="backTxt"></b></button>
+				<button class="back_btn1" style="margin-right:23px;padding-right:25px;padding-left:25px;"><b class="backTxt"></b></button>
+				<div class="sub_center_part fleft">
+					<div class="sub_title">
+						<h1 class="pageName title_mobile"></h1>                    
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--- Sub Header Elements -->
+		<!--- Nav Elements and video Player -->
+		<div class="">
+			<div class="content" id="printFrame">
+				<div title="Previous" class="leftBtn fleft arw_btn_disabled left_arw_btn" id="prevBtn"></div>
+				<!--- Page Container -->
+				<div id="page" class="pgContainer fleft"></div>
+				<!--- Page Container -->
+				<!--- Video Player -->
+				<div class="media-wrapper videocontent">
+					<video id="vidPlayer" width="100%" margin="10px auto" controls max-width="640px" seekbarControl="enabled">
+						<source src="" type="video/mp4"></source>
+						<track kind="subtitles" src="../course/content_en/module_1/assets/videos/GET_Template_01_01.txt" srclang="en" label="English"></track>
+					</video>
+				</div>
+				<!--- Video Player -->
+				<!--- Ipad init button -->
+				<div class="ipad_play" style="display:none">
+					<div class="playButton"><img src="framework/js/plugins/mediaelement/bigplay2.png"></img></div>
+				</div>
+				<!--- Ipad init button -->
+				<div title="Next" class="rightBtn fright right_arw_btn" id="nextBtn"></div>				
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!--- Nav Elements and video Player -->
+		<!-- Footer Elements and Audio Player -->
+		<footer class="footer text-center">		
+			<div class="sub_right_end footer_btns">
+				<!-- <div class="audCC">
+					<div class="audioTextCC" style="display:none;">
+						<p></p>
+					</div>
+				</div> -->
+				<div class="media-wrapper">
+					<audio class="audio" id="audio_player" src="">
+							<source src="" type="audio/mp3" />
+					</audio>
+				</div>
+				<div style="display:none;">
+					<audio id="additinal_audio" >
+					  <source class="mp3_src" src="framework/assets/audios/mute.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+		<!-- Footer Elements and Audio Player -->
+</div>
+<div id="getmodulesize" contenteditable="true" class="getfilesize" style="display:none"></div>
+<!-- Click Instruction -->
+<p class="clickNxtInfo clickNxtInfoTxt"></p>
+<!-- Click Instruction -->
+<!--CopyRight Information -->
+<p class="copyRightTxt"></p>
+<!--CopyRight Information -->
+<!--Review Tool-->
+<script>	
+// getfilesize
+$("#getsize").click(function(){ 
+ $("#getmodulesize").toggle();
+ })
+ // getfilesize
+	$('#revTool').click(function(e) {
+		var modName=$(".moduleName").html();
+		var pgName=$(".pageName").html();
+		var pgInfo=currPageNum+" of "+pageTypeArray[currModule-1].length;
+		var crseId;
+		
+		if(window.opener!=null) {
+			crseId = window.opener.courseId;
+		} else {
+			crseId = "";
+		}
+ 		var passing_coursedetails = currModule+"_"+"1_"+"1_"+currPageNum;
+		 //alert(passing_coursedetails)
+		//alert(subPageNum)
+		launchReviewTool(crseId,currModule,pgName,passing_coursedetails,modName,pgInfo);
+	});
+	function launchReviewTool(CourseID,ModuleNumber,PageName,PageID,moduleName,pageState)
+	{
+		fnAudioVideoPause(true);
+		window.open("http://originlearning.in/ocritiq/login.php?courseId="+CourseID+"&ModuleNo="+ModuleNumber+"&ModuleName="+moduleName+"&pageId="+PageID+"&PageName="+PageName+"&PageInfo="+pageState+"&pageTitle="+PageName+"&userNa=Reviewer&changeuser=t","srdas"); 
+	}
+</script>
+<!--Review Tool-->
+</body>
+</html>
+

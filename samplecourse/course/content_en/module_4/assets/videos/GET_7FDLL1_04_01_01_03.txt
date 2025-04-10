@@ -1,0 +1,24 @@
+﻿GET_7FDLL1_04_01_01_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:12,958
+In the first oil flow path, internal drilled passageways in the main frame carry the oil from the main oil header to each main bearing location, thus supplying oil to all of the crankshaft main bearings.
+
+2
+00:00:12,958 --> 00:00:21,958
+Oil enters the crankshaft from the main bearings and flows through diagonally drilled holes in the crankshaft to the crankpins and rod bearings.
+
+3
+00:00:21,958 --> 00:00:28,417
+The oil passes from the rod bearings through the master rods to the articulated pins and bushings.
+
+4
+00:00:28,417 --> 00:00:36,458
+Oil then flows through drilled passages in the master and articulated rods to lubricate the piston pins and bushings.
+
+5
+00:00:36,458 --> 00:00:44,875
+From each piston pin, oil passes through the piston skirt to the chamber under the piston crown to carry away heat from the piston crown.
+
+6
+00:00:44,875 --> 00:00:51,917
+Oil then flows out of the piston crown through an orifice and gravity drains back into the crankcase.

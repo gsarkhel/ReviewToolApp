@@ -1,0 +1,36 @@
+﻿GET_7FDLL1_04_01_01_05 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:12,067
+In addition to the two oil flow paths to the internal engine components, lubricating oil is also supplied to the auxiliary drive gear end, barring-over gearbox, and the free-end components.
+
+2
+00:00:12,067 --> 00:00:20,033
+The auxiliary drive gear is lubricated internally by oil flowing from a passage within the crankshaft through the gear hub.
+
+3
+00:00:20,033 --> 00:00:24,900
+Oil passes through the bearings and returns by gravity to the crankcase.
+
+4
+00:00:24,900 --> 00:00:33,000
+Lubricating oil is supplied to the barring-over gearbox by an internal drilled passageway in the main frame to the gearbox.
+
+5
+00:00:33,000 --> 00:00:36,967
+The oil from the gearbox returns to the crankcase internally.
+
+6
+00:00:36,967 --> 00:00:44,400
+The free-end bearing is lubricated through a passage from the engine oil header to an annular groove around the bearing.
+
+7
+00:00:44,400 --> 00:00:51,400
+Another passage connects the annular bearing groove to a passage in the idler gear shaft to lubricate its bushing.
+
+8
+00:00:51,400 --> 00:00:58,633
+The camshaft and split drive gears are splash lubricated through an orifice and pipe from the engine oil header.
+
+9
+00:00:58,633 --> 00:01:38,267
+The bearings and drive gears of the lubricating oil and water pumps are lubricated by running partially submerged in oil in the free-end cover reservoir.

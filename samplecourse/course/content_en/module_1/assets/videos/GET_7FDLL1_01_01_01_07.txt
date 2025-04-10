@@ -1,0 +1,11 @@
+﻿1
+00:00:00,000 --> 00:00:10,458
+As with most automobile gasoline engines, our diesel engines are four-stroke-per-cycle engines, often referred to as simply four-stroke or four-cycle engines.
+
+2
+00:00:10,458 --> 00:00:23,292
+Regardless of the naming convention used, one complete cycle of a four-stroke diesel engine includes four strokes of a piston inside a single cylinder: intake, compression, combustion, and exhaust.
+
+3
+00:00:23,292 --> 00:00:30,542
+During the four strokes, there are three items needed for combustion: oxygen, heat, and fuel.

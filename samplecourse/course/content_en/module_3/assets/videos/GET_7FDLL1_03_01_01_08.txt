@@ -1,0 +1,8 @@
+﻿GET_7FDLL1_03_01_01_08 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,917
+The split gear drives the camshaft gears.
+
+2
+00:00:04,917 --> 00:00:10,292
+It is assembled onto the crankshaft in two pieces at the alternator end of the crankshaft.

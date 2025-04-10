@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_01_01_01_07_sp_04 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,375
+The exhaust stroke is the fourth and final stroke of the four-cycle diesel engine.
+
+2
+00:00:05,375 --> 00:00:12,667
+During this stroke, the piston has changed directions, and again is traveling in an upward motion in the cylinder.
+
+3
+00:00:12,667 --> 00:00:24,000
+The exhaust valves located in the combustion chamber are now open, allowing the piston to push the exhaust gases out of the combustion chamber and into the exhaust manifold.
+
+4
+00:00:24,000 --> 00:00:27,542
+This completes the four strokes of the diesel engine.
+
+5
+00:00:27,542 --> 00:00:33,167
+The crankshaft has rotated two complete turns to complete this cycle.

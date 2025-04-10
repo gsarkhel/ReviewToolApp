@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<course>
+	<module>	   
+		<page path="GET_7FDLL1_01_01_01_01.html" type="obj" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_02.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_03.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_04.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_05.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_06.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_07.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_08.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_09.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_10.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_11.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_01_01_01_12.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_01_01_01_13.html" type="dropImages" pgType="cyu"></page>
+		<page path="GET_7FDLL1_01_01_01_14.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_01_01_01_15.html" type="txtImg" pgType="cont"></page>
+		</module>
+		
+	<module>
+		<page path="GET_7FDLL1_02_01_01_01.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_02.html" type="obj" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_03.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_04.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_05.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_06.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_07.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_08.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_09.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_10.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_11.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_12.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_02_01_01_13.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_02_01_01_14.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_02_01_01_15.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_02_01_01_16.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_02_01_01_17.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_02_01_01_18.html" type="txtImg" pgType="cont"></page>
+	</module>
+	
+	<module>
+		<page path="GET_7FDLL1_03_01_01_01.html" type="obj" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_02.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_03.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_04.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_05.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_06.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_07.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_08.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_09.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_10.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_11.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_12.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_13.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_03_01_01_14.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_03_01_01_15.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_03_01_01_16.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_03_01_01_17.html" type="dropHotspot" pgType="cyu"></page>
+		<page path="GET_7FDLL1_03_01_01_18.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_03_01_01_19.html" type="txtImg" pgType="cont"></page>
+		</module>
+		
+	<module>
+	    <page path="GET_7FDLL1_04_01_01_01.html" type="obj" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_02.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_03.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_04.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_05.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_06.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_07.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_08.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_09.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_04_01_01_10.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_04_01_01_11.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_04_01_01_12.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_04_01_01_13.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_04_01_01_14.html" type="txtImg" pgType="cont"></page>
+	</module>
+	<module>
+	    <page path="GET_7FDLL1_05_01_01_01.html" type="obj" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_02.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_03.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_04.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_05.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_06.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_07.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_08.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_09.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_10.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_11.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_12.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_13.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_14.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_15.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_16.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_17.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_18.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_19.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_20.html" type="2d_ani" pgType="cont"></page>
+		<page path="GET_7FDLL1_05_01_01_21.html" type="dropText" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_22.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_23.html" type="cyumcq" pgType="cyu"></page>
+		<page path="GET_7FDLL1_05_01_01_24.html" type="txtImg" pgType="cont"></page>
+	</module>
+</course>

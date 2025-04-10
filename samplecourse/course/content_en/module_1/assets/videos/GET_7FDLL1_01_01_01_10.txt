@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_01_01_01_07_sp_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,583
+The combustion stroke is the third stroke of the four-cycle diesel engine.
+
+2
+00:00:04,583 --> 00:00:14,125
+During this stroke, the piston is being forced in a downward motion in the cylinder by the rapid expansion of gases created by the ignited fuel.
+
+3
+00:00:14,125 --> 00:00:17,250
+This energy is used to power the engine.
+
+4
+00:00:17,250 --> 00:00:20,917
+This is the only stroke that creates mechanical energy.
+
+5
+00:00:20,917 --> 00:00:29,542
+The energy produced from the chemical reaction of the oxygen, heat and fuel is transformed into mechanical energy to rotate the crankshaft.

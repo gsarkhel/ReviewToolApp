@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_05_01_01_12_sp_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,750
+The high-pressure fuel pump is a solenoid controlled booster pump.
+
+2
+00:00:04,750 --> 00:00:10,833
+The pump receives a steady supply of fuel from the locomotive’s low-pressure fuel system.
+
+3
+00:00:10,833 --> 00:00:19,083
+The low-pressure fuel (90 psi) is boosted by the high-pressure pump to very high pressures (18,000 psi).
+
+4
+00:00:19,083 --> 00:00:26,167
+The signals from the EGU control the closing point of the solenoid, thus providing the means to vary fuel timing.
+
+5
+00:00:26,167 --> 00:00:34,208
+The EGU signals also control the duration for which the solenoid is opened, thus controlling the amount of fuel delivered.

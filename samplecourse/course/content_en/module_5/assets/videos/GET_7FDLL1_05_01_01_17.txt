@@ -1,0 +1,11 @@
+﻿1
+00:00:00,000 --> 00:00:06,500
+The purpose of the mechanical components is to deliver the correct amount of fuel to each cylinder for combustion.
+
+2
+00:00:06,500 --> 00:00:15,625
+Each cylinder on the 7FDL diesel engine is equipped with a high-pressure fuel pump, a high-pressure fuel line, and an injector.
+
+3
+00:00:15,625 --> 00:00:23,708
+The injector works as a check valve releasing fuel into the combustion chamber when the required pressure is reached.

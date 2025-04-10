@@ -1,0 +1,28 @@
+﻿GET_7FDLL1_02_01_01_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:07,000
+Engineering developed the 7FDL engine for use in diesel engine railroad locomotives.
+
+2
+00:00:07,000 --> 00:00:16,875
+Its design and rating is based on extensive laboratory tests backed by millions of hours of field experience with thousands of engines in service today.
+
+3
+00:00:16,875 --> 00:00:20,042
+At the end of this module, you will be able to:
+
+4
+00:00:20,042 --> 00:00:25,125
+State the information represented by the 7FDL engine classification.
+
+5
+00:00:25,125 --> 00:00:31,792
+Define the terms associated with the 7FDL diesel engine orientation and cylinder locations.
+
+6
+00:00:31,792 --> 00:00:40,042
+Recognize the differences in engine specifications for the 7FDL 12-cylinder and 16-cylinder engines.
+
+7
+00:00:40,042 --> 00:00:45,583
+Explain how 7FDL engines have evolved to meet regulatory requirements.

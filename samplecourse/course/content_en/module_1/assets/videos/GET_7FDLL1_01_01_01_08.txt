@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_01_01_01_07_sp_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,417
+The intake stroke is the first stroke of the four-cycle diesel engine.
+
+2
+00:00:04,417 --> 00:00:09,500
+During this stroke, the piston is traveling in a downward motion inside the cylinder.
+
+3
+00:00:09,500 --> 00:00:16,042
+Intake valves located in the combustion chamber are open, allowing air to enter into the chamber.
+
+4
+00:00:16,042 --> 00:00:20,708
+This provides oxygen-laden filtered air to the combustion chamber.
+
+5
+00:00:20,708 --> 00:00:26,083
+The intake stroke provides oxygen, one of the three items needed for combustion.

@@ -1,0 +1,32 @@
+﻿GET_7FDLL1_01_01_01_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:18,042
+Welcome to the Combustion Theory module of the 7FDL Diesel Engine Basic course.
+
+2
+00:00:18,042 --> 00:00:24,083
+Millions of engines are in use every day, the most common being the engines that power our cars.
+
+3
+00:00:24,083 --> 00:00:32,292
+The lifestyles we all are accustomed to would be non-existent if it were not for the power provided by the internal combustion engine.
+
+4
+00:00:32,292 --> 00:00:40,542
+With a device as important as this, it only makes sense that we should have a basic understanding of how a combustion engine operates.
+
+5
+00:00:40,542 --> 00:00:44,042
+At the end of this module, you will be able to:
+
+6
+00:00:44,042 --> 00:00:47,250
+Describe how a combustion engine operates.
+
+7
+00:00:47,250 --> 00:00:51,667
+List the differences between a gasoline engine and a diesel engine.
+
+8
+00:00:51,667 --> 00:00:54,583
+Describe the four strokes of a diesel engine.

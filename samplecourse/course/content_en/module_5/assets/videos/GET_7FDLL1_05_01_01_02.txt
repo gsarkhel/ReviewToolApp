@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_05_01_01_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:09,542
+In the 7FDL diesel engine, the EFI system is an important design feature that reduces emissions and creates a more fuel-efficient engine.
+
+2
+00:00:09,542 --> 00:00:18,667
+The primary purpose of the EFI system is to deliver an appropriate amount of fuel, at the correct time, to each of the cylinders of the diesel engine.
+
+3
+00:00:18,667 --> 00:00:27,792
+The secondary purpose of the EFI system is to monitor and identify certain engine operating parameters and provide engine protection capabilities.
+
+4
+00:00:27,792 --> 00:00:36,083
+In addition to fuel efficiency and reduced emissions, the EFI system also provides improved diagnostic capabilities.

@@ -1,0 +1,24 @@
+﻿GET_7FDLL1_02_01_01_07 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:12,792
+To reduce the emissions from locomotives, the United States Environmental Protection Agency (EPA) first issued a set of standards in 1973, referred to as the Tier 0 Standards.
+
+2
+00:00:12,792 --> 00:00:19,667
+The primary focus of the EPA regulations is the reduction of nitrogen oxides or NOx.
+
+3
+00:00:19,667 --> 00:00:26,458
+Also measured and regulated are hydrocarbons, carbon monoxide, particulate matter, and smoke.
+
+4
+00:00:26,458 --> 00:00:33,167
+These pollutants are measured in weight (grams) of pollutants emitted to produce 1 horsepower for 1 hour.
+
+5
+00:00:33,167 --> 00:00:38,083
+The table displays the EPA Tier 0 limits for these pollutants.
+
+6
+00:00:38,083 --> 00:00:52,708
+Although the Tier 0 standards were issued in 1973, they did not become effective until 2000, which allowed manufacturers time for the design and development of new engines to meet the standards.

@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_01_01_01_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:11,542
+The internal combustion engine is a device that utilizes a chemical reaction between a combustible fluid, better known as fuel, oxygen, and heat.
+
+2
+00:00:11,542 --> 00:00:17,917
+This chemical reaction is used to produce captive, controlled, synchronized explosions.
+
+3
+00:00:17,917 --> 00:00:24,583
+The energy produced by these explosions is used to rotate a primary shaft commonly called a crankshaft.
+
+4
+00:00:24,583 --> 00:00:28,375
+While this may sound complicated, it really is not.

@@ -1,0 +1,31 @@
+﻿1
+00:00:00,000 --> 00:00:04,042
+System sensors send valuable information to the EGU.
+
+2
+00:00:04,042 --> 00:00:10,958
+There are two types of system sensors – fuel management sensors and engine protection sensors.
+
+3
+00:00:10,958 --> 00:00:19,667
+The inputs from the fuel management sensors are used to calculate the correct air-to-fuel ratio and set fuel limits for the cylinders.
+
+4
+00:00:19,667 --> 00:00:25,958
+The EGU uses information supplied from the air intake manifold sensors to do this.
+
+5
+00:00:25,958 --> 00:00:31,375
+The inputs from the engine protection sensors are used to provide engine protection.
+
+6
+00:00:31,375 --> 00:00:36,625
+The EGU does this by monitoring certain engine support parameters.
+
+7
+00:00:36,625 --> 00:00:45,708
+The sensor box, which holds the fuel management and engine protection sensors, is located at the left side alternator end of the engine.
+
+8
+00:00:45,708 --> 00:01:10,667
+The system sensors include the fuel injection manifold air pressure (FIMAP) sensor, the fuel injection manifold air temperature (FIMAT) sensor, the fuel injection oil pressure (FIOP1) sensor, the fuel injection water pressure sensor (FIWPS), and the fuel injection engine water temperature (FIEWT) sensor.

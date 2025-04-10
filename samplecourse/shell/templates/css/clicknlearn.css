@@ -1,0 +1,292 @@
+.sub_right_end {
+	background: #fff;
+	border-top: 1px solid #fff;
+}
+.mejs-button[disabled] button, .mejs-time-rail[disabled], .mejs-time-rail[disabled] span{
+	cursor: default !important;
+}
+.videoContainer, .imageContainer {
+	display:none;
+	position: relative;
+}
+.videoContainer .audioText {
+    position: absolute !important;
+    width: 40%;
+    min-height: 35px;
+    top: inherit;
+    padding: 5px 0px;
+    right: 0;
+}
+.videoContainer .at_title {
+    font-size: 16px;
+    font-weight: bold;
+    position: inherit;
+    padding-top: 8px;
+    color: #d70010;
+    border-bottom: 1px solid #d70010;
+    width: 79%;
+    margin: 0 10px;
+    padding-bottom: 4px;
+}
+.videoContainer .bgwhite_bdrblue {
+    background: white;
+    position: relative;
+    margin: 0 0%;
+}
+.videoContainer .mejs-captions-position-hover {
+    bottom: 35px;
+}
+/* click and reveal styles */
+.clickAndReveal .floatLeft {
+    float: left;
+    width: 36%;
+    margin-top: 0%;
+}
+
+.clickAndReveal ul {
+    width: auto;
+    position: relative;
+}
+.clickAndReveal .floatRight{
+	float: left;
+	width: 63%;
+	margin: 1% 0% 15px 1%;
+}
+/* click and reveal styles */
+.clickAndReveal ul:before, .clickAndReveal ul:after {
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    border-bottom: 0;
+    width: 48%;
+}
+.clickAndReveal ul:before {
+   
+    border-right: 0;    
+}
+.clickAndReveal ul:after {
+   
+    position: absolute;
+    top: 0;
+    left: 48%;
+    margin-left: 1px;    
+}
+ .clickAndReveal li {
+    text-align: right;
+    width: 48%;
+    float: left;
+    border: 1px solid white;
+    margin-bottom: -1px;
+}   
+.audio_transcript_ul li {
+    text-align: left;
+    width: auto;
+    float: left;
+   /*  border: 1px solid white; */
+    margin-bottom: -1px;
+}
+.clickAndReveal li:nth-child(even) {
+    margin-left: -1px;
+}
+.clickAndReveal .floatLeft .caller {
+    background-color: #d70010;
+    margin: 0px 0px;
+    padding: 0px 2px;
+    height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1em;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audioEnded .clickAndReveal .floatLeft .caller {
+	cursor: pointer;
+}
+.audioEnded .footer .mejs-controls .mejs-button.mejs-playpause-button button {
+	cursor: pointer;
+}
+.audioEnded .footer .mejs-controls .mejs-button.mejs-replay-button button {
+	cursor: pointer;
+}
+.clickAndReveal .floatLeft .caller:first-child {
+	margin-top: 0px;
+}
+.clickAndReveal .floatLeft .caller.clicked {
+	background-color: #ee7700;
+}
+.clickAndReveal .floatLeft .caller.clicked.no-hover {
+	background-color: #7f8c8d;
+}
+/* .clickAndReveal .floatRight{
+	float: left;
+	width: 63%;
+	margin: 0% 1% 15px 1%;
+} */
+.clickAndReveal .quickRefText {
+    float: left;
+    color: #333;
+    display: block;
+    font-size: 15px;
+    width: 77%;
+    background: #e5e6e7;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+.clickAndReveal .pdfContent {
+    display: block;
+	float: left;
+    width: auto;
+    height: auto;
+}
+.clickAndReveal .floatRight .calloutContent{
+	height: auto;
+	background: #5DADE2;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+.clickAndReveal .floatRight div.calloutContent{
+	display: none;	
+}
+.clickAndReveal .floatRight .callout_head {
+	font-size: 16px;
+	background-color: #005eb8;
+	padding: 5px 10px;
+	color: #FFFFFF;
+}
+.clickAndReveal .video_player_bg {
+    background: #efefef;
+    position: absolute;
+    width: 100%;
+    padding: 5px 0px 0px;
+    margin-top: -3px;
+}
+.clickAndReveal .play-pause {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    left: 3px;
+    top: -3px;
+    margin-right: 5px;
+}
+.clickAndReveal .play-pause.pause {
+    background: url(../../framework/images/play.png) no-repeat center;
+}
+.clickAndReveal .play-pause.play {
+    background: url(../../framework/images/pause.png) no-repeat center;
+}
+.clickAndReveal #custom-seekbar {
+    cursor: pointer;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 95%;
+    top: -3px;
+    float: left;
+}
+
+/* ----------- iPad Landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+.clickAndReveal .floatLeft {
+	margin-top: 5%;
+}
+.videoContainer .mejs-captions-position-hover {
+    bottom: 25px !important;
+}
+
+}
+/* ----------- iPad Portrait ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+.clickAndReveal .floatLeft, .clickAndReveal .floatRight{
+    width: 100%;
+	margin: 10px;
+	    font-size: 14px;
+}
+.clickAndReveal .quickRefText {
+width: 86% !important;
+}
+.clickAndReveal .pdfContent {
+	/* top: 20px !important; */
+}
+#video_wrapper .mejs-video {
+    height: 269px !important;
+}
+.clickAndReveal .floatRight div.watermarkImage {
+	margin: 0px;
+}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+.clickAndReveal .floatLeft {
+	float: left;
+	width: 100%;
+	margin-top: 0;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+ }
+.clickAndReveal .floatLeft, .clickAndReveal .floatRight, .clickAndReveal .quickRefText {
+    width: 100%;
+	margin: 10px auto;
+}
+.clickAndReveal .pdfContent {
+	left: 0px;
+    top: 10px !important;
+}
+.clickAndReveal #custom-seekbar {
+	width: 92%;
+}
+}
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .clickAndReveal #custom-seekbar {
+	width: 95%;
+}
+.clickAndReveal .floatLeft, .clickAndReveal .floatRight, .clickAndReveal .quickRefText {
+    width: 85%;
+	margin: 10px auto;
+}
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3){
+.clickAndReveal .floatLeft, .clickAndReveal .floatRight, .clickAndReveal .quickRefText {
+    width: 100%;
+	margin: 10px auto;
+}
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+.clickAndReveal .floatLeft {
+	float: left;
+	width: 100%;
+	margin-top: 0;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+ }
+.clickAndReveal .floatLeft, .clickAndReveal .floatRight, .clickAndReveal .quickRefText {
+    width: 100%;
+	margin: 10px auto;
+}
+.clickAndReveal .pdfContent {
+	left: 0px;
+    top: 10px !important;
+}
+.clickAndReveal #custom-seekbar {
+	width: 93%;
+}
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+.clickAndReveal #custom-seekbar {
+	width: 96%;
+}
+}

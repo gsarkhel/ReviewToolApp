@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_02_01_01_06 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:10,167
+The specifications, dimensions and weights of the 7FDL 12-cylinder and 16-cylinder diesel engines are shown in the table.
+
+2
+00:00:10,167 --> 00:00:20,500
+The 12- and 16- cylinder engines are similar on many counts but differ with regard to number of cylinders and their firing order, and also their length and weight.
+
+3
+00:00:20,500 --> 00:00:27,792
+The 7FDL diesel engine has undergone numerous improvements in its 50-plus years of locomotive history.
+
+4
+00:00:27,792 --> 00:00:40,333
+Recently, the changes made to the 7FDL diesel engine have been driven by evolving exhaust emission regulatory standards that govern the locomotive freight hauling industry.

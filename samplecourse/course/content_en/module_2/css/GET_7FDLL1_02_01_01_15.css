@@ -1,0 +1,21 @@
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{ 
+.inner_height{
+overflow-y: auto;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+ .inner_height{
+ height:500px;
+overflow-y: auto;
+}
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1300px){
+.inner_height {
+    height: 64.5%;
+    overflow: auto;
+}
+}
+

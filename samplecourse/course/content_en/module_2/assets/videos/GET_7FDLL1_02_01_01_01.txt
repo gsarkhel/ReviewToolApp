@@ -1,0 +1,4 @@
+﻿GET_7FDLL1_02_01_01_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:30,167
+Welcome to the 7FDL Diesel Engine Overview module of the 7FDL Diesel Engine Basic course.

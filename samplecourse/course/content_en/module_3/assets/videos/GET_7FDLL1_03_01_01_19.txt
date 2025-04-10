@@ -1,0 +1,148 @@
+﻿GET_7FDLL1_03_01_01_19 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:02,708
+You have reached the end of this module!
+
+2
+00:00:02,708 --> 00:00:04,833
+In this module, you learned to:
+
+3
+00:00:04,833 --> 00:00:09,375
+Identify the major components in a 7FDL diesel engine.
+
+4
+00:00:09,375 --> 00:00:13,125
+The major components of a 7FDL engine are
+
+5
+00:00:13,125 --> 00:00:14,792
+Engine mainframe
+
+6
+00:00:14,792 --> 00:00:16,667
+Engine crankshaft
+
+7
+00:00:16,667 --> 00:00:18,542
+Vibration damper
+
+8
+00:00:18,542 --> 00:00:21,042
+Rubber-bonded drive coupling
+
+9
+00:00:21,042 --> 00:00:22,500
+Fuel system
+
+10
+00:00:22,500 --> 00:00:23,958
+Split gear
+
+11
+00:00:23,958 --> 00:00:25,833
+Engine main bearings
+
+12
+00:00:25,833 --> 00:00:27,917
+Connecting rod arrangement
+
+13
+00:00:27,917 --> 00:00:29,792
+Steel crown piston
+
+14
+00:00:29,792 --> 00:00:31,583
+Engine camshaft
+
+15
+00:00:31,583 --> 00:00:33,250
+Turbocharger
+
+16
+00:00:33,250 --> 00:00:35,292
+Exhaust manifolds
+
+17
+00:00:35,292 --> 00:00:37,083
+Cylinder assembly
+
+18
+00:00:37,083 --> 00:00:42,125
+State the purpose and function of the major components in the 7FDL engine.
+
+19
+00:00:42,125 --> 00:00:47,333
+The engine mainframe provides the base to attach all other engine components.
+
+20
+00:00:47,333 --> 00:00:53,917
+The engine crankshaft converts the linear motion of the pistons into a radial motion to drive the alternator.
+
+21
+00:00:53,917 --> 00:00:56,667
+It runs through the center of the mainframe.
+
+22
+00:00:56,667 --> 00:01:01,042
+The vibration damper reduces the shock of the combustion stroke.
+
+23
+00:01:01,042 --> 00:01:04,333
+It is located at the free end of the crankshaft.
+
+24
+00:01:04,333 --> 00:01:10,958
+The rubber-bonded drive coupling provides the interface between the crankshaft and the auxiliary drive gear.
+
+25
+00:01:10,958 --> 00:01:15,958
+The fuel system delivers high-pressure diesel fuel to the combustion chamber.
+
+26
+00:01:15,958 --> 00:01:19,208
+The split gear drives the camshaft gears.
+
+27
+00:01:19,208 --> 00:01:25,000
+It is assembled onto the crankshaft in two pieces at the alternator end of the crankshaft.
+
+28
+00:01:25,000 --> 00:01:36,750
+The crankshaft main bearings minimize the friction at the points where the crankshaft is anchored to the mainframe and also provide a base to control the oil film on which the crankshaft rides.
+
+29
+00:01:36,750 --> 00:01:41,833
+Each connecting rod includes two rods: the master rod and the articulating rod.
+
+30
+00:01:41,833 --> 00:01:49,500
+The master rod is installed in the left bank of the engine and the articulating rod is installed in the right bank of the engine.
+
+31
+00:01:49,500 --> 00:01:57,833
+The piston compresses the air for combustion and transfers the energy produced from combustion to the crankshaft via the connecting rod.
+
+32
+00:01:57,833 --> 00:02:05,208
+The lobes on the camshaft provide the motion to open the intake and exhaust valves and the high-pressure fuel pumps.
+
+33
+00:02:05,208 --> 00:02:11,000
+The turbocharger provides compressed air to support more complete combustion of the fuel.
+
+34
+00:02:11,000 --> 00:02:14,083
+It is mounted on the free end of the engine.
+
+35
+00:02:14,083 --> 00:02:20,333
+The exhaust manifolds channel the exhaust gases from the cylinders to drive the turbocharger.
+
+36
+00:02:20,333 --> 00:02:23,333
+They are located in the vee of the engine.
+
+37
+00:02:23,333 --> 00:02:29,083
+The cylinder assembly contains and controls the expansion of gases from combustion.

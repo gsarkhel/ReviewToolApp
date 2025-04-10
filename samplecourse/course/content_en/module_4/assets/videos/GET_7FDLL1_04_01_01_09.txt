@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_04_01_01_09 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:11,167
+The purpose of the dual-pipe exhaust manifold is to channel the exhaust gases from the combustion chambers to the turbocharger to supply the energy needed to compress the combustion air.
+
+2
+00:00:11,167 --> 00:00:17,500
+As the exhaust valves open, the exhaust gases exit into the exhaust manifold.
+
+3
+00:00:17,500 --> 00:00:23,208
+The pressure created by the hot exhaust gases turns the turbine in the turbocharger.
+
+4
+00:00:23,208 --> 00:00:28,667
+Then the exhaust gases exit to the atmosphere through the muffler assembly.

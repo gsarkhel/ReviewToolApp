@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_05_01_01_11_sp_04 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,583
+The FIWPS sensor supplies engine cooling water pressure to the EGU.
+
+2
+00:00:05,583 --> 00:00:12,042
+This information is used to protect the engine from serious damage resulting from low water pressure.
+
+3
+00:00:12,042 --> 00:00:22,292
+If the EGU receives information that the engine’s water pressure does not support the throttle and load call, it will adjust the engines speed to match the current water pressure.

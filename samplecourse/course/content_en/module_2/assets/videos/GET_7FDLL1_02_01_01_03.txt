@@ -1,0 +1,28 @@
+﻿GET_7FDLL1_02_01_01_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,833
+The letter-and-numeral code combination used to classify the 7FDL engine is based on the following:
+
+2
+00:00:06,833 --> 00:00:11,542
+‘7’ indicates our category of mechanical devices.
+
+3
+00:00:11,542 --> 00:00:17,083
+‘F’ represents the 9" engine cylinder bore and 10.5" piston stroke.
+
+4
+00:00:17,083 --> 00:00:19,458
+‘D’ stands for diesel.
+
+5
+00:00:19,458 --> 00:00:24,167
+‘L’ indicates that the engine is designed for a locomotive application.
+
+6
+00:00:24,167 --> 00:00:33,800
+If you are working on one of our diesel engines using the documentation provided with your locomotive, certain terms will be used to describe component locations.
+
+7
+00:00:33,800 --> 00:00:40,292
+This module will familiarize you with the terms and locations described in official documentation.

@@ -1,0 +1,160 @@
+﻿GET_7FDLL1_04_01_01_14 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:02,750
+You have reached the end of this module!
+
+2
+00:00:02,750 --> 00:00:05,292
+In this module, you learned to:
+
+3
+00:00:05,292 --> 00:00:11,083
+Define the purpose of each of the internal subsystems within the 7FDL engine.
+
+4
+00:00:11,083 --> 00:00:17,708
+The lubricating oil system supplies pressurized lubricating oil to the moving parts of the engine.
+
+5
+00:00:17,708 --> 00:00:24,750
+The cooling water system maintains the operating temperature of the engine under all throttle calls and load conditions.
+
+6
+00:00:24,750 --> 00:00:32,333
+The fuel oil system delivers fuel to the cylinders for combustion and provides cooling to the high-pressure fuel equipment.
+
+7
+00:00:32,333 --> 00:00:37,875
+The combustion air system supplies compressed air to the power assembly for combustion.
+
+8
+00:00:37,875 --> 00:00:47,875
+The exhaust air system channels the exhaust gases from the combustion chamber to the turbocharger to supply the energy needed to compress the combustion air.
+
+9
+00:00:47,875 --> 00:00:57,250
+Explain the flow of lubricating oil, cooling water, fuel, combustion air, and exhaust air in the 7FDL diesel engine.
+
+10
+00:00:57,250 --> 00:00:59,625
+Lubricating Oil Path
+
+11
+00:00:59,625 --> 00:01:03,458
+The lubricating oil has two distinct flow paths.
+
+12
+00:01:03,458 --> 00:01:16,167
+In the first oil flow path, internal drilled passageways in the main frame carry the oil from the main oil header to each main bearing location, thus supplying oil to all of the crankshaft main bearings.
+
+13
+00:01:16,167 --> 00:01:23,042
+Through diagonally drilled holes in the crankshaft, oil flows to the crankpins and rod bearings.
+
+14
+00:01:23,042 --> 00:01:29,833
+The oil passes from the rod bearings through the master rods to the articulated pins and bushings.
+
+15
+00:01:29,833 --> 00:01:37,875
+Through drilled passages in the master and articulated rods, oil flows to the piston assembly and lubricates it.
+
+16
+00:01:37,875 --> 00:01:42,208
+The oil is then drained back into the crankcase by gravity.
+
+17
+00:01:42,208 --> 00:01:55,375
+In the second oil flow path, internal drilled passageways in the main frame carry the oil from the main oil header to the number 2 and number 8 cam bearing locations on both sides of the 16-cylinder engine.
+
+18
+00:01:55,375 --> 00:02:01,875
+The oil entering the four camshaft bearings then travels lengthwise through the camshaft sections.
+
+19
+00:02:01,875 --> 00:02:12,750
+The camshaft bearings contain annular grooves connecting to passages in the engine main frame, from where the oil flows to the valve and fuel crosshead guides and crossheads.
+
+20
+00:02:12,750 --> 00:02:18,667
+The oil then flows up through the hollow push rods to oil the rocker and valve train assemblies.
+
+21
+00:02:18,667 --> 00:02:27,083
+The oil drains back down around the push rods and over the crosshead rollers and cam lobes before draining back into the crankcase.
+
+22
+00:02:27,083 --> 00:02:34,750
+The oil passage to the right number 7 and 8 camshaft bearings also supplies oil to the oil gauges and sensors.
+
+23
+00:02:34,750 --> 00:02:47,417
+In addition to the two oil flow paths to the internal engine components, lubricating oil is also supplied to the auxiliary drive gear end, barring-over gearbox, and the free-end components.
+
+24
+00:02:47,417 --> 00:02:49,583
+Cooling Water Path
+
+25
+00:02:49,583 --> 00:02:56,250
+Passing through the water pump and the front end cover of the engine, cooling water enters the inlet water headers.
+
+26
+00:02:56,250 --> 00:03:07,667
+From the inlet headers, cooling water is supplied to an opening in the cylinder jacket wall of each cylinder, from where it passes to and cools the lower and upper bands of the cylinder liner.
+
+27
+00:03:07,667 --> 00:03:13,542
+Cooling water from the top of the cylinder liner then flows to cavities in the cylinder’s head.
+
+28
+00:03:13,542 --> 00:03:18,667
+After cooling the head, the water passes to the water discharge header.
+
+29
+00:03:18,667 --> 00:03:20,500
+Fuel Oil Path
+
+30
+00:03:20,500 --> 00:03:28,583
+The fuel flows to the inlets of the high-pressure fuel pump, where the fuel is pressurized and fed to the fuel injectors.
+
+31
+00:03:28,583 --> 00:03:38,167
+At a predetermined pressure, the fuel is sprayed into the combustion chamber where it combines with compressed air and ignites, causing combustion to occur.
+
+32
+00:03:38,167 --> 00:03:47,333
+Fuel that is not used for combustion cools the high-pressure fuel components and then returns to the fuel tank through low-pressure return lines.
+
+33
+00:03:47,333 --> 00:03:49,375
+Combustion Air Path
+
+34
+00:03:49,375 --> 00:03:55,458
+To provide air for combustion, at low speeds, the engine draws air through the turbocharger.
+
+35
+00:03:55,458 --> 00:04:02,917
+At high speeds and increased loads, the energy produced by the hot exhaust gases drives the turbocharger.
+
+36
+00:04:02,917 --> 00:04:13,708
+The heated air passes through the intercooler cores and runs through an air manifold to the power assemblies, where the air is supplied to the combustion chamber when the intake air valves are open.
+
+37
+00:04:13,708 --> 00:04:15,792
+Exhaust Air Path
+
+38
+00:04:15,792 --> 00:04:21,125
+The exhaust gases exit into the dual-pipe exhaust manifold.
+
+39
+00:04:21,125 --> 00:04:26,458
+The pressure created by the hot exhaust gases turns the turbine in the turbocharger.
+
+40
+00:04:26,458 --> 00:04:32,083
+Then the exhaust gases exit to the atmosphere through the muffler assembly.

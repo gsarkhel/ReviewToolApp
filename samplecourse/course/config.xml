@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config developerMode="false">
+	<CourseName>7FDL Diesel Engine: Basic</CourseName>
+	<continueText>Continue</continueText>
+	<intro poster="global/assets/videos/introAnim.png" video="global/assets/videos/introAnim.mp4"></intro>
+ 	<CourseId>288</CourseId>
+	<courseIndicator available="no" />
+	<packagetype>course</packagetype>
+	<languages>
+		<lang>
+			<lan>en</lan>	<!-- English => en; Russian => ru; Portuguese => pt; Spanish => sp; Bahasa => id -->
+			<CourseLangName>7FDL Diesel Engine: Basic</CourseLangName>
+			<ModDesc></ModDesc>
+			<Duration>45 minutes</Duration>
+		</lang>
+	</languages>
+	<lms>
+		<integrationMethod>SCORM1.2</integrationMethod>
+	</lms>
+</config>

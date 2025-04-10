@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_05_01_01_11_sp_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,292
+The FIMAT is a thermistor that is used to sense the air temperature in the air intake manifold.
+
+2
+00:00:06,292 --> 00:00:16,250
+The EGU uses this air temperature information and the pressure reading information to calculate the density of the air supplied to the cylinders for combustion.
+
+3
+00:00:16,250 --> 00:00:21,417
+It is located in the sensor box next to the L8 cylinder location.

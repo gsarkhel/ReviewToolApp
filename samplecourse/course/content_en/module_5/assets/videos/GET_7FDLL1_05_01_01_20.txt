@@ -1,0 +1,8 @@
+﻿GET_7FDLL1_05_01_01_12_sp_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,042
+The injector receives the high-pressure fuel from the high-pressure fuel pump.
+
+2
+00:00:05,042 --> 00:00:13,625
+After the fuel in the injector reaches a predetermined pressure, the fuel will be injected directly into the combustion chamber.

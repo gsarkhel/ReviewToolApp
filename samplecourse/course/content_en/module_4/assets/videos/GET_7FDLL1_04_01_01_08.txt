@@ -1,0 +1,33 @@
+﻿GET_7FDLL1_04_01_01_08 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,583
+The purpose of the combustion air system is to supply compressed air to the power assembly for combustion.
+
+2
+00:00:06,583 --> 00:00:11,125
+At low speeds, the engine draws air through the turbocharger.
+
+3
+00:00:11,125 --> 00:00:20,458
+At high speeds and increased loads, the energy produced by the hot exhaust gases drives the turbocharger's turbine, rotating the compressor.
+
+4
+00:00:20,458 --> 00:00:31,333
+The heated air, up to as much as 350°F (177°C) at Notch 8, passes through the intercooler cores.
+
+5
+00:00:31,333 --> 00:00:40,042
+These heat exchangers can cool the intake air to as low as 145°F (63°C).
+
+6
+00:00:40,042 --> 00:00:48,458
+At idle or at light loads in cold weather, the air may actually be warmed by heat transferred from the water in the intercooler cores.
+
+7
+00:00:48,458 --> 00:00:53,833
+From each intercooler, the air runs through an air manifold to the power assemblies.
+
+8
+00:00:53,833 --> 00:01:01,375
+Within each power assembly, the air is supplied to the combustion chamber when the corresponding intake air valves are open.
+

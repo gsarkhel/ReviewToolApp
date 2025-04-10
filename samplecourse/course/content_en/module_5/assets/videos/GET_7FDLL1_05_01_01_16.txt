@@ -1,0 +1,8 @@
+﻿GET_7FDLL1_05_01_01_11_sp_05 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,042
+The FIEWT sensor provides engine water temperature information to the EGU.
+
+2
+00:00:06,042 --> 00:00:13,000
+The EGU uses the water sensor information to determine the right fuel-to-air ratio when the engine is cold.

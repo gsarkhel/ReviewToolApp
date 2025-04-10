@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_04_01_01_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:33,375
+Welcome to the Internal Subsystems module of the 7FDL Diesel Engine Basic course.
+
+2
+00:00:33,375 --> 00:00:45,583
+This module describes the flow paths that water, fuel, combustion air, exhaust air, and lubricating oil take through the 7FDL™ diesel engine.
+
+3
+00:00:45,583 --> 00:00:48,958
+At the end of this module, you will be able to:
+
+4
+00:00:48,958 --> 00:00:55,167
+Define the purpose of each of the internal subsystems within the 7FDL diesel engine.
+
+5
+00:00:55,167 --> 00:01:04,875
+Explain the flow of lubricating oil, cooling water, fuel, combustion air, and exhaust air in the 7FDL diesel engine.

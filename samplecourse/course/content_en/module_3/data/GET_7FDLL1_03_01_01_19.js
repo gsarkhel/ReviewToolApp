@@ -1,0 +1,12 @@
+﻿{
+	"ExternalData": [
+		{
+			"mediaFile":{
+				"name":"GET_7FDLL1_03_01_01_19.mp4"
+		},
+			"audioTransText":{
+				"text":"You have reached the end of this module! <br> In this module, you learned to: <li>Identify the major components in a 7FDL diesel engine. </li><li>The major components of a 7FDL engine are </li><li>Engine mainframe </li><li>Engine crankshaft </li><li>Vibration damper </li><li>Rubber-bonded drive coupling </li><li>Fuel system </li><li>Split gear </li><li>Engine main bearings </li><li>Connecting rod arrangement </li><li>Steel crown piston </li><li>Engine camshaft </li><li>Turbocharger </li><li>Exhaust manifolds </li><li>Cylinder assembly </li><li>State the purpose and function of the major components in the 7FDL engine. </li><li>The engine mainframe provides the base to attach all other engine components. </li><li>The engine crankshaft converts the linear motion of the pistons into a radial motion to drive the alternator. It runs through the center of the mainframe. </li><li>The vibration damper reduces the shock of the combustion stroke. It is located at the free end of the crankshaft. </li><li>The rubber-bonded drive coupling provides the interface between the crankshaft and the auxiliary drive gear. </li><li>The fuel system delivers high-pressure diesel fuel to the combustion chamber. </li><li>The split gear drives the camshaft gears. It is assembled onto the crankshaft in two pieces at the alternator end of the crankshaft. </li><li>The crankshaft main bearings minimize the friction at the points where the crankshaft is anchored to the mainframe and also provide a base to control the oil film on which the crankshaft rides. </li><li>Each connecting rod includes two rods: the master rod and the articulating rod. The master rod is installed in the left bank of the engine and the articulating rod is installed in the right bank of the engine. </li><li>The piston compresses the air for combustion and transfers the energy produced from combustion to the crankshaft via the connecting rod. </li><li>The lobes on the camshaft provide the motion to open the intake and exhaust valves and the high-pressure fuel pumps. </li><li>The turbocharger provides compressed air to support more complete combustion of the fuel. It is mounted on the free end of the engine. </li><li>The exhaust manifolds channel the exhaust gases from the cylinders to drive the turbocharger. They are located in the vee of the engine. </li><li>The cylinder assembly contains and controls the expansion of gases from combustion. </li>"
+			}
+		}
+	]
+}

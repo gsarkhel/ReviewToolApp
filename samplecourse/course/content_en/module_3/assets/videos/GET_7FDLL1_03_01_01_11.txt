@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_03_01_01_11 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,333
+Each connecting rod arrangement includes two rods, the master rod and the articulating rod.
+
+2
+00:00:06,333 --> 00:00:10,375
+The master rod is installed in the left bank of the engine.
+
+3
+00:00:10,375 --> 00:00:17,667
+The articulating rod, linked to a master rod by a pin connection, is located in the right bank of the engine.

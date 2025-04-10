@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_03_01_01_07 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,875
+The vibration damper reduces the shock of the combustion stroke.
+
+2
+00:00:04,875 --> 00:00:08,125
+Without the damper, the crankshaft would break.
+
+3
+00:00:08,125 --> 00:00:14,750
+The damper is located at the free end of the crankshaft, and is made up of a flywheel inside a housing.

@@ -1,0 +1,28 @@
+﻿GET_7FDLL1_05_01_01_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,292
+Welcome to the Electronic Fuel Injection module of the 7FDL Diesel Engine Basic course.
+
+2
+00:00:06,292 --> 00:00:19,250
+This module describes the function and major components of the Electronic Fuel Injection or EFI system of the 7FDL Diesel Engine.
+
+3
+00:00:19,250 --> 00:00:22,583
+At the end of this module, you will be able to:
+
+4
+00:00:22,583 --> 00:00:25,833
+Define the purpose of the EFI system.
+
+5
+00:00:25,833 --> 00:00:30,750
+State the purpose and location of each EFI system major component.
+
+6
+00:00:30,750 --> 00:00:36,167
+State the purpose and location of each EFI system instrumentation device.
+
+7
+00:00:36,167 --> 00:00:39,958
+Describe how the EFI system works.

@@ -1,0 +1,12 @@
+﻿{
+	"ExternalData": [
+		{
+			"mediaFile":{
+				"name":"GET_7FDLL1_02_01_01_10.mp4"
+		},
+			"audioTransText":{
+				"text":"In 2008, the emission standards were modified and the revised Tier 0 and Tier 1 were designated as Tier 0+ and Tier 1+. These revised guidelines are applicable to 7FDL engines that were originally produced between 1993 and 2004, but are remanufactured as of January 1<sup>st</sup>, 2010. The revised guidelines are documented in the United States Code of Federal Regulations (CFR), Title 40, Part 1033. For ease of reference, this regulation is referred to as 40 CFR Part 1033. Part 1033 deals specifically with the control of emissions from locomotives. There are currently two different versions of Part 1033-compliant 7FDL diesel engines; the Tier 0+ and the Tier 1+ compliant engines. Differences between the two versions of diesel engines are that Tier 0+ versions maintain the Tier 0 camshaft assemblies and turbochargers. NOx credits allow for a limited number of engines to keep the Tier 0 camshaft assemblies and turbochargers. These units would be Part 1033 Tier 0+ compliant units. The Part 1033 regulation reduces the emissions of particulate matter by approximately 50% from the Tier 1 limits."
+			}
+		}
+	]
+}

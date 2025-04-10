@@ -1,0 +1,44 @@
+﻿GET_7FDLL1_01_01_01_07_sp_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,542
+The compression stroke is the second stroke of the four-cycle diesel engine.
+
+2
+00:00:04,542 --> 00:00:12,667
+During this stroke, the piston has changed direction to initiate a new stroke, and is traveling in an upward motion in the cylinder.
+
+3
+00:00:12,667 --> 00:00:21,417
+The intake and exhaust valves, located at the top of the combustion chamber, are closed, sealing off the combustion chamber.
+
+4
+00:00:21,417 --> 00:00:28,208
+The piston is compressing the air that was drawn into the cylinder during the previous stroke, the intake stroke.
+
+5
+00:00:28,208 --> 00:00:41,292
+As the air is compressed, the temperature increases rapidly to typically 700 to 1100 degrees Fahrenheit (approximately 370 to 590 degrees Celsius).
+
+6
+00:00:41,292 --> 00:00:45,375
+This produces the second item needed for combustion, heat.
+
+7
+00:00:45,375 --> 00:00:52,542
+At the end of the compression stroke, diesel fuel is injected into the combustion chamber at a very high pressure.
+
+8
+00:00:52,542 --> 00:00:57,333
+Fuel, the third and last item, is now present for combustion.
+
+9
+00:00:57,333 --> 00:01:03,083
+The fuel ignites spontaneously when the fuel mist comes into contact with the very hot air.
+
+10
+00:01:03,083 --> 00:01:07,500
+This starts the third stroke of the cycle: combustion stroke.
+
+11
+00:01:07,500 --> 00:01:10,833
+The crankshaft has now rotated one full turn.

@@ -1,0 +1,24 @@
+﻿GET_7FDLL1_04_01_01_06 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:08,733
+The purpose of the cooling water system is to maintain the operating temperature of the engine under all throttle calls and load conditions.
+
+2
+00:00:08,733 --> 00:00:13,367
+Water flows from the water pump into the front end cover of the engine.
+
+3
+00:00:13,367 --> 00:00:21,500
+Passing through the front end cover, the water then enters the inlet water headers where it is supplied to each of the cylinders.
+
+4
+00:00:21,500 --> 00:00:33,267
+Within each cylinder, water flows through an opening in the cylinder jacket wall and is forced from the lower band of the cylinder liner through drilled passageways to the upper band of the cylinder liner.
+
+5
+00:00:33,267 --> 00:00:39,133
+Cooling water from the top of the cylinder liner then flows to cavities in the cylinder’s head.
+
+6
+00:00:39,133 --> 00:00:58,800
+After cooling the head, the water passes through an outlet opening in the top of the head and a core passage in the top portion of the cylinder jacket to the water discharge header.

@@ -1,0 +1,24 @@
+﻿GET_7FDLL1_03_01_01_12 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,458
+The piston is a critical component in the diesel engine.
+
+2
+00:00:05,458 --> 00:00:13,250
+It compresses air for combustion and transfers the energy produced from combustion to the crankshaft via the connecting rod.
+
+3
+00:00:13,250 --> 00:00:21,292
+The piston is a two piece assembly, consisting of the piston crown and the piston skirt, that is housed within the cylinder assembly.
+
+4
+00:00:21,292 --> 00:00:26,292
+The top or crown of the piston is steel for high strength and resistance.
+
+5
+00:00:26,292 --> 00:00:30,250
+The bottom or skirt of the piston is aluminum for light weight.
+
+6
+00:00:30,250 --> 00:00:36,333
+It houses the piston pin for the connection between the piston and the connecting rod.

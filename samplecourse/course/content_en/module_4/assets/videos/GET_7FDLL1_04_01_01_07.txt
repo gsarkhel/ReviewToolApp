@@ -1,0 +1,32 @@
+﻿GET_7FDLL1_04_01_01_07 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:08,833
+The purpose of the fuel oil system is to provide fuel to the cylinders for combustion and to provide cooling for the high-pressure fuel equipment.
+
+2
+00:00:08,833 --> 00:00:15,833
+Fuel oil is supplied through parallel low-pressure fuel lines to the inlets of each high-pressure fuel pump.
+
+3
+00:00:15,833 --> 00:00:22,375
+The pumps, driven by the camshafts, pressurize the fuel to over 18,000 psi.
+
+4
+00:00:22,375 --> 00:00:34,000
+A solenoid, located on each high-pressure pump, is electronically controlled to open and close based on control signals from the Electronic Fuel Injection (EFI) computer.
+
+5
+00:00:34,000 --> 00:00:41,000
+When the solenoid is open, pressurized fuel oil is fed to the fuel injector through the high-pressure fuel line.
+
+6
+00:00:41,000 --> 00:00:50,417
+At a preset pressure, the fuel is sprayed into the combustion chamber where it combines with compressed air and ignites, causing combustion to occur.
+
+7
+00:00:50,417 --> 00:00:59,333
+Fuel that is not used for combustion cools the high-pressure fuel components and then returns to the fuel tank through low-pressure return lines.
+
+8
+00:00:59,333 --> 00:01:10,875
+Low-pressure fuel paths also exist to lubricate the internal parts of each high-pressure pump and to prevent excess fuel system pressure from damaging the high-pressure pumps.

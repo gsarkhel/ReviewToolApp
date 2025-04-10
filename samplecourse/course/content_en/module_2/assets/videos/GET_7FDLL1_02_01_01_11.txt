@@ -1,0 +1,13 @@
+﻿GET_7FDLL1_02_01_01_11 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:10,417
+Certain parts and assemblies on our locomotives manufactured or remanufactured after January 1<sup>st</sup>, 2001 are equipped with "Emission Critical Components". 
+
+2
+00:00:10,417 --> 00:00:19,375
+These components have been identified as being critical in enabling the locomotives to be operated in compliance with EPA emissions requirements.
+
+3
+00:00:19,375 --> 00:00:36,625
+Accordingly, for our various warranties and representations regarding emissions compliance for these locomotives to remain in force and effect, replacement and repair of Emission Critical Components should be done only in accordance with the most recent compliant engine parts list published by our engineering group.
+

@@ -1,0 +1,36 @@
+﻿GET_7FDLL1_03_01_01_13 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,500
+The purpose of the cylinder assembly is to contain and control the expansion of gases from combustion.
+
+2
+00:00:06,500 --> 00:00:14,833
+The unitized cylinder is made up of three major components: the cylinder jacket, the cylinder liner, and the cylinder head.
+
+3
+00:00:14,833 --> 00:00:20,542
+The cylinder jacket is the outside casting that houses all the other cylinder components.
+
+4
+00:00:20,542 --> 00:00:26,792
+The cylinder liner is a heavy-walled tube that is hardened or chrome plated for extended wear.
+
+5
+00:00:26,792 --> 00:00:30,958
+It is one of the components that forms the combustion chamber.
+
+6
+00:00:30,958 --> 00:00:35,000
+The cylinder liner is assembled inside the cylinder jacket.
+
+7
+00:00:35,000 --> 00:00:41,458
+The cylinder head is welded to the top of the cylinder liner to form the top of the combustion chamber.
+
+8
+00:00:41,458 --> 00:00:46,375
+The intake and exhaust valve guides are assembled to the cylinder head.
+
+9
+00:00:46,375 --> 00:00:53,292
+The valve seats are provided through welding and angle grinding in the cylinder head intake and exhaust ports.

@@ -1,0 +1,214 @@
+.ui-coverflow-wrapper{
+    height:400px;
+    margin-top: 100px;
+}
+.ui-state-active{
+    border:0px;
+}
+
+.language{
+	width:80%;
+	margin:0 auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.language_selection{
+	float:left;
+	width: 100%;
+	min-height: 300px;
+    overflow: auto;
+}
+.language_blue{
+	float: right;
+    background: #4a88c6; 
+	width: 100%;
+}
+.language_blue_padding{
+	padding: 40px;
+}
+.language_blue_padding img{
+	margin-bottom:10%;
+}
+.language_blue_padding h1{
+	color:#fff;
+	font-size:3em;
+	text-transform:uppercase;
+}
+.language_blue_padding p{
+	margin:5px 0px 30px;	
+	color:#fff;
+	font-size:2em;
+}
+.language_heading{
+	margin-bottom: 20px;
+	font-size: 22px;
+    font-weight: bold;
+}
+.language_blue h4{
+	color: #fff;
+}
+.language_blue h6{
+	font-size: 1.7em;
+	color: #fff;
+}
+.language_blue h5{
+	margin-bottom:4%;
+	font-size: 1.7em;
+	color: #fff;
+}
+.common_button{
+	display: inline-block;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 10px 100px;
+    border-radius: 50px;
+    color: #4a88c6;
+    font-weight: 600;
+	background: #fff;
+	margin: 8% 0;
+	font-size: 1.5em;
+}
+.cover.disabledLangBtn.current
+{
+	opacity: 0.4 !important;
+}
+.control-group {
+	display: inline-block;
+	padding: 20px 0px;;
+	text-align: left;
+	vertical-align: top;
+}
+.control {
+	font-size: 18px;
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+    padding-left: 30px;
+    cursor: pointer;
+    width: 90%;
+    height: 45px;
+    line-height: 45px;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator {
+	position: absolute;
+	top: 12px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #4a88c6;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #89d6ec;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+	background: #89d6ec;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #89d6ec;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #89d6ec;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 8px;
+	width: 3px;
+	height: 8px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+	border-color: #7b7b7b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+	background: #7b7b7b;
+}
+.cus_radio img{
+	float: left;
+    max-width: 50%;
+	margin:0px 30px;
+}
+
+.div1 {
+    float:left;
+    width: 100px;
+    background: aqua;
+}
+.container{
+	overflow: hidden;
+	padding-right: 100px;
+	box-sizing: border-box;
+	background: green;
+}
+.div2 {
+    float:left;
+    width: 50%;
+	padding: 20px 0px;
+    background: url('../../../shell/framework/images/map.png') right center no-repeat;
+}
+.div3 {
+    background: #4a88c6;
+    overflow: hidden;
+    width: 50%;
+}
+.div4 {
+    position: absolute;
+    right:0;
+    top:0;
+    background:pink;
+    width: 100px; 
+}
+html,body,div
+{
+    height: 100%;
+}

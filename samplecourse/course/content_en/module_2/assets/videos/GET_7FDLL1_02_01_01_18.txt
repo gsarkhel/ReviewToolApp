@@ -1,0 +1,132 @@
+﻿GET_7FDLL1_02_01_01_18 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:02,625
+You have reached the end of this module!
+
+2
+00:00:02,625 --> 00:00:04,917
+In this module, you learned to:
+
+3
+00:00:04,917 --> 00:00:09,875
+State the information represented by the 7FDL engine classification.
+
+4
+00:00:09,875 --> 00:00:16,500
+The letter-and-numeral code combination used to classify the 7FDL engine is based on the following:
+
+5
+00:00:16,500 --> 00:00:20,708
+‘7’ indicates our category of mechanical devices.
+
+6
+00:00:20,708 --> 00:00:26,167
+‘F’ represents the 9" engine cylinder bore and 10.5" piston stroke.
+
+7
+00:00:26,167 --> 00:00:28,333
+‘D’ stands for diesel.
+
+8
+00:00:28,333 --> 00:00:32,958
+‘L’ indicates that the engine is designed for a locomotive application.
+
+9
+00:00:32,958 --> 00:00:39,583
+Describe the terms associated with the 7FDL diesel engine orientation and cylinder locations.
+
+10
+00:00:39,583 --> 00:00:43,208
+The free end of the engine faces the radiator cab.
+
+11
+00:00:43,208 --> 00:00:47,583
+It is the end where the turbocharger and intercoolers are mounted.
+
+12
+00:00:47,583 --> 00:00:52,958
+The alternator end of the engine is the end where the generator or alternator is mounted.
+
+13
+00:00:52,958 --> 00:00:56,958
+This end of the engine is oriented towards the operator's cab.
+
+14
+00:00:56,958 --> 00:01:01,375
+The cylinders are numbered from the free end to the alternator end of the engine.
+
+15
+00:01:01,375 --> 00:01:08,958
+The right side or left side of the engine is determined when viewing the engine while facing the generator or alternator end of the engine.
+
+16
+00:01:08,958 --> 00:01:12,833
+The right side of the engine is on the left side of the locomotive.
+
+17
+00:01:12,833 --> 00:01:21,875
+During engine operation, the crankshaft rotates clockwise when viewed from the free end and counterclockwise when viewed from the alternator end.
+
+18
+00:01:21,875 --> 00:01:29,917
+Recognize the differences in engine specifications for the 7FDL 12-cylinder and 16-cylinder engines.
+
+19
+00:01:29,917 --> 00:01:40,792
+The 7FDL 12-cylinder and 16-cylinder engines differ with respect to engine specifications, such as number of cylinders, firing order, and weight.
+
+20
+00:01:40,792 --> 00:01:46,333
+Explain how 7FDL engines have evolved to meet regulatory requirements.
+
+21
+00:01:46,333 --> 00:01:53,000
+The primary focus of the EPA regulation is the reduction of nitrogen oxides or NOx.
+
+22
+00:01:53,000 --> 00:01:59,583
+Also measured and regulated are hydrocarbons, carbon monoxide, particulate matter, and smoke.
+
+23
+00:01:59,583 --> 00:02:11,917
+To meet the Tier 0 emission standards set by the Environmental Protection Agency (EPA), modified 7FDL diesel engines were put into production on January 1<sup>st</sup>, 2001.
+
+24
+00:02:11,917 --> 00:02:20,042
+Engines manufactured between January 1<sup>st</sup>, 2001 and December 31<sup>st</sup>, 2001 were Tier 0 compliant.
+
+25
+00:02:20,042 --> 00:02:30,125
+7FDL diesel engines were put into production on January 1<sup>st</sup>, 2002 through 2004 to comply with the EPA Tier 1 regulations.
+
+26
+00:02:30,125 --> 00:02:39,042
+Going from Tier 0 to Tier 1 represents a 22% reduction in NOx and a 25% reduction in particulate matter.
+
+27
+00:02:39,042 --> 00:02:49,125
+In 2008, the emission standards were modified and the revised Tier 0 and Tier 1 were designated as Tier 0+ and Tier 1+.
+
+28
+00:02:49,125 --> 00:03:02,542
+These revised guidelines are applicable to 7FDL engines that were originally produced between 1993 and 2004, but are remanufactured as of January 1<sup>st</sup>, 2010.
+
+29
+00:03:02,542 --> 00:03:13,042
+There are currently two different versions of Part 1033-compliant 7FDL diesel engines - the Tier 0+ and the Tier 1+ compliant engines.
+
+30
+00:03:13,042 --> 00:03:22,583
+Differences between the two versions of diesel engines are that Tier 0+ versions maintain the Tier 0 camshaft assemblies and turbochargers.
+
+31
+00:03:22,583 --> 00:03:29,667
+There are some Emission Critical Components in the engine that are critical to ensuring compliance with EPA standards.
+
+32
+00:03:29,667 --> 00:03:37,792
+Customers must follow our guidelines for maintenance, repair, and replacement of these components to ensure EPA compliance.
+
+33
+00:03:37,792 --> 00:03:42,958
+Validity of our warranties is also dependent on following these guidelines.

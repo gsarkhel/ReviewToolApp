@@ -1,0 +1,17 @@
+﻿GET_7FDLL1_02_01_01_09 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:11,292
+Beginning in January of 2002, all 7FDL diesel engines placed into production through 2004 complied with the EPA Tier 1 regulations.
+
+2
+00:00:11,292 --> 00:00:19,917
+Going from Tier 0 to Tier 1 represented a 22% reduction in NOx and a 25% reduction in particulate matter.
+
+3
+00:00:19,917 --> 00:00:24,958
+The table displays the EPA Tier 1 limits for these pollutants.
+
+4
+00:00:24,958 --> 00:00:42,333
+In order to meet the Tier 2 standards that became effective in 2005, Engineering introduced the Evolution Series of locomotives in North America, replacing the Dash 9 and AC4400 locomotives, both of which used the 7FDL engine.
+

@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_05_01_01_11_sp_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,917
+The FIOP1 sensor supplies lubricating oil pressure information to the EGU.
+
+2
+00:00:05,917 --> 00:00:12,375
+This information is used to protect the engine from serious damage resulting from low oil pressure.
+
+3
+00:00:12,375 --> 00:00:23,125
+If the EGU receives information that the engine's oil pressure does not support the throttle and load call, it will adjust the engines speed to match the present oil pressures.
+
+4
+00:00:23,125 --> 00:00:29,667
+If the minimum pressure is not present to run the diesel engine, the EGU will shut down the engine.

@@ -1,0 +1,24 @@
+﻿GET_7FDLL1_03_01_01_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:08,625
+Welcome to the Major Components module of the 7FDL Diesel Engine Basic course.
+
+2
+00:00:08,625 --> 00:00:17,500
+The 7FDL engine is a high-compression, four-stroke, medium-speed engine designed specifically for locomotive service.
+
+3
+00:00:17,500 --> 00:00:28,375
+A high-capacity turbocharger, efficient combustion system, and electronic fuel injection combine to provide a fuel efficient engine that meets strict emissions levels.
+
+4
+00:00:28,375 --> 00:00:31,958
+At the end of this module, you will be able to:
+
+5
+00:00:31,958 --> 00:00:36,542
+Identify the major components in a 7FDL diesel engine.
+
+6
+00:00:36,542 --> 00:00:42,000
+State the purpose and location of the major components in the 7FDL engine.

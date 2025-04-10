@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_03_01_01_04 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,250
+The turbocharger is an exhaust-driven air compressor.
+
+2
+00:00:04,250 --> 00:00:09,125
+It provides compressed air to support more complete combustion of the fuel.
+
+3
+00:00:09,125 --> 00:00:17,542
+The turbocharger is driven only by exhaust gases for the entire speed range, and is not run by any belts or gear trains.
+
+4
+00:00:17,542 --> 00:00:22,042
+The turbocharger is mounted to the free end of the engine.

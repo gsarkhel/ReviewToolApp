@@ -1,0 +1,32 @@
+﻿GET_7FDLL1_01_01_01_04 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:06,583
+Obviously, there is a difference between the types of fuel used for the gasoline and diesel engines.
+
+2
+00:00:06,583 --> 00:00:12,083
+But another important difference is how ignition of the air-fuel mixture is initiated.
+
+3
+00:00:12,083 --> 00:00:18,250
+The combustion chamber of a gasoline engine receives a mixture of gas and air and compresses it.
+
+4
+00:00:18,250 --> 00:00:24,875
+The mixture is then ignited by means of an electronic ignition source, commonly called a spark plug.
+
+5
+00:00:24,875 --> 00:00:33,000
+Like the gas engine, the combustion chamber of a diesel engine receives and compresses air but initially it is not mixed with fuel.
+
+6
+00:00:33,000 --> 00:00:38,583
+Typically, the compression ratio of a diesel engine is higher than that of a gas engine.
+
+7
+00:00:38,583 --> 00:00:48,333
+Due to this high compression ratio, the air reaches a temperature high enough to spontaneously ignite the fuel that is injected directly into the combustion chamber.
+
+8
+00:00:48,333 --> 00:00:52,833
+No electronic ignition source is used to ignite the fuel.

@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_04_01_01_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:10,042
+The purpose of the lubricating oil system is to supply pressurized lubricating oil to the moving parts of the engine and to carry away heat produced by friction.
+
+2
+00:00:10,042 --> 00:00:26,042
+The lubricating oil has two distinct flow paths for supplying oil to the internal diesel engine components, with one path directing lubricating oil to the crankshaft main bearings and the other path directing lubricating oil to four of the camshaft bearings.
+
+3
+00:00:26,042 --> 00:00:35,542
+From the lubricating oil filter tank, lube oil passes through the Integrated Front End (IFE) cover on the free-end of the engine to the main oil header.
+
+4
+00:00:35,542 --> 00:00:41,542
+Branch passages within the main frame then direct oil to each of the two internal flow paths.

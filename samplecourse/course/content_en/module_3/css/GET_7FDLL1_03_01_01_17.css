@@ -1,0 +1,66 @@
+.inner_height_drophotspot .leftContent.leftipad img {
+    left: 7%;
+    position: relative;
+   /*  width: 97%; */
+   background: white;
+}
+.sub_slct > li {
+  
+    padding: 3px 10px;
+	}
+	.zoom-img-wrap{
+position: relative;
+z-index: 99999999999;
+}
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
+ {
+.button_bdr_top {
+    bottom: 0px !important;
+    position: relative;
+}
+}
+img[data-action="zoom"] {
+  cursor: default;
+ 
+}
+.zoom-img,
+.zoom-img-wrap {
+  position: relative;
+  z-index: 9999999;
+  width: 100%;
+  -webkit-transition: all 300ms;
+       -o-transition: all 300ms;
+          transition: all 300ms;
+}
+img.zoom-img {
+  cursor: default;
+}
+.zoom-overlay {
+  z-index: 420;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  filter: "alpha(opacity=0)";
+  opacity: 0;
+  -webkit-transition:      opacity 300ms;
+       -o-transition:      opacity 300ms;
+          transition:      opacity 300ms;
+}
+.zoom-overlay-open .zoom-overlay {
+  filter: "alpha(opacity=100)";
+  opacity: 1;
+}
+.zoom-overlay-open,
+.zoom-overlay-transitioning {
+ pointer-events: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
+.inner_height_drophotspot .leftContent.leftipad img {
+    right: 0;
+    left: 0;
+}
+}

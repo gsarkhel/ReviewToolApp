@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_02_01_01_04 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:07,333
+The two ends of the diesel engine are referred to as the free end and the alternator end.
+
+2
+00:00:07,333 --> 00:00:12,750
+The free end of the engine is the end where the turbocharger and intercoolers are mounted.
+
+3
+00:00:12,750 --> 00:00:17,917
+This end faces the radiator cab when the engine is mounted on the locomotive.
+
+4
+00:00:17,917 --> 00:00:24,083
+The generator or alternator end is the end of the engine where the generator or alternator is mounted.
+
+5
+00:00:24,083 --> 00:00:28,583
+This end of the engine is oriented towards the operator's cab.

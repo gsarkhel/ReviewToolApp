@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_05_01_01_11_sp_01 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:07,333
+The FIMAP takes a pressure tap off the air intake manifold located at the left 8-cylinder location.
+
+2
+00:00:07,333 --> 00:00:13,208
+The pressure tap feeds into a sensor box located next to the L8 cylinder.
+
+3
+00:00:13,208 --> 00:00:18,792
+Inside the sensor box, a transducer supplies information to the EGU.

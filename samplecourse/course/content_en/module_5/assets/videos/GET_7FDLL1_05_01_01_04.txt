@@ -1,0 +1,32 @@
+﻿GET_7FDLL1_05_01_01_04 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,083
+The EFI system consists of four major subgroups.
+
+2
+00:00:04,083 --> 00:00:13,042
+They are the EFI controller, the diesel engine speed sensors and top dead center probe, system sensors, and mechanical components.
+
+3
+00:00:13,042 --> 00:00:18,625
+The EFI controller is the microprocessor that controls the EFI system.
+
+4
+00:00:18,625 --> 00:00:24,042
+The EFI controller is a part of the Electronic Governing Unit or EGU.
+
+5
+00:00:24,042 --> 00:00:33,750
+The primary function of the EGU is to control engine speed by controlling the high-pressure fuel pump solenoid located on each cylinder assembly.
+
+6
+00:00:33,750 --> 00:00:41,333
+Through the control of the solenoids, the EGU can vary the fuel timing and the amount of fuel delivered to each cylinder.
+
+7
+00:00:41,333 --> 00:00:47,542
+Along with controlling engine speed, the EGU performs some other important functions.
+
+8
+00:00:47,542 --> 00:00:52,167
+Several inputs are sent to the EGU from sensors on the locomotive.

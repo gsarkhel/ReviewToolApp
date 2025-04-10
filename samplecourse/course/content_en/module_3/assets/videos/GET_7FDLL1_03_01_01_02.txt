@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_03_01_01_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:09,875
+The engine mainframe is a large iron casting, sometimes referred to as the engine block, which provides a base to attach all the other engine components.
+
+2
+00:00:09,875 --> 00:00:14,875
+Oil passages are cast into the frame to reduce the potential for leaks.
+
+3
+00:00:14,875 --> 00:00:21,208
+No cooling water, intake air, or exhaust gases come in direct contact with the mainframe.

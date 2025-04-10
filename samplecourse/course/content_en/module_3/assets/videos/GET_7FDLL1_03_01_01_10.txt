@@ -1,0 +1,8 @@
+﻿GET_7FDLL1_03_01_01_10 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:04,917
+The camshaft is gear-driven off the crankshaft.
+
+2
+00:00:04,917 --> 00:00:14,375
+Lobes on the camshaft provide the motion to open the intake and exhaust valves and operate the high-pressure fuel pumps.

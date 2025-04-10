@@ -1,0 +1,8 @@
+﻿GET_7FDLL1_03_01_01_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,833
+The purpose of the fuel system is to deliver high-pressure diesel fuel to the combustion chamber.
+
+2
+00:00:05,833 --> 00:00:14,917
+The fuel system has three components: the high-pressure fuel pump, the high-pressure fuel line, and the fuel injection nozzle.

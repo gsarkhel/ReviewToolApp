@@ -1,0 +1,382 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title class="courseName"></title>
+		<link rel="stylesheet" type="text/css" href="shell/framework/css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="shell/framework/css/media.css"/>
+		<link rel="stylesheet" type="text/css" href="shell/framework/css/media_tablet.css"/> 
+		<link rel="stylesheet" type="text/css" href="shell/framework/css/media_mobile.css"/>
+		<style type="text/css" media="screen">
+			div.magnifyme {
+				padding: 30px;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 2000px;
+				height: 300px !important;
+			}
+			div.wrapper {
+				margin: 0% 5% auto !important;
+				height: 370px;
+				overflow: hidden;
+				width: 90%;
+				position: relative;
+			}
+			div.magnifyme > div {
+				width: 300px;
+				height: 155px;
+				float: left;
+				margin: 5px;
+				position: relative;
+			}
+			@media screen and (max-width: 1024px) and (min-width: 768px){
+				.country{
+					width: 255px;
+					margin-left: 22px;
+				}
+				.light_grey img {
+					width: 14px;
+				}
+				.light_grey h3{
+					font-size: 1.3em;
+				}
+			}
+
+			.heading1{
+			    font-size: 32px !important;
+				font-weight:200;
+				color: #6d6d6d;
+				text-align: center;
+				    padding-top: 30px;
+			}
+			.warningimg{
+				position: relative;
+			}
+			.lines{
+			border-bottom:1px solid black;
+			}
+			.content{
+				width: 55%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				display: block;
+				margin-top: 50px;
+			}
+			.two{
+			}
+		.con1{
+			color: #505050;
+			font-size: 20px;
+		}
+		.jumbotron{
+		    width: 110px !important;
+			height: 110px !important;
+		}
+		.text-center12{
+		font-size:15px !important;
+		}
+		.lines1{
+		    width: 100%;
+			position: absolute;
+			top: 43px;
+			z-index: -1;
+		}
+		</style>
+		<script src="shell/framework/js/plugins/jquery.js"></script>
+		<script src="shell/framework/js/plugins/coverflow-ui.js"></script> 
+		<script src="shell/framework/js/plugins/effects.js"></script>
+		<script src="shell/framework/js/plugins/coverflow-ui-2.js"></script> 
+		<script src="shell/framework/js/lms/scorm_api.js"></script>
+		<script src="shell/framework/js/DetectDevice.js"></script>
+		<script src="shell/framework/js/shell.js"></script>
+		<script language="javascript">
+		var nIsSISet= 0;
+		var iev=0;
+		fnSearchBrowVersion()
+		function fnSearchBrowVersion(){
+			var ieold = (/MSIE (\d+\.\d+);/.test(navigator.userAgent));
+			var trident = !!navigator.userAgent.match(/Trident\/7.0/);
+			var rv=navigator.userAgent.indexOf("rv:11.0");
+			if (ieold) iev=new Number(RegExp.$1);
+			if (navigator.appVersion.indexOf("MSIE 10") != -1) iev=10;
+			if (trident&&rv!=-1) iev=11;
+		}
+		function fnWin() {
+			/*if($(window).width() >= 3840) {
+				$('body').css('zoom', '150%');
+			}*/
+			var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+			var is_Mac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+			if(!isChrome)
+			{
+				oCourseWinST=window.open("shell/course.html","winPop","fullscreen=yes,HEIGHT="+screen.availHeight+",WIDTH=" +screen.availWidth+",left=0,top=0,scrollbars=1,resizable=no").focus();
+			}else{
+				if(is_Mac==true || is_Mac=="true")
+				{
+					oCourseWinST=window.open("shell/course.html","winPop","fullscreen=yes,HEIGHT="+screen.availHeight+",WIDTH=" +screen.availWidth+",left=0,top=0,scrollbars=1,resizable=no").focus();
+				}else{
+					oCourseWinST=window.open("shell/course.html","winPop","fullscreen=yes,HEIGHT="+(screen.availHeight-60)+",WIDTH=" +(screen.availWidth-10)+",left=0,top=0,scrollbars=1,resizable=no").focus();
+				}
+			}
+			fnCheckWin()
+		}
+	    function fnLMSExit() {
+			if(iev>=11) {
+				window.top.close();
+			} else {
+				window.top.close();
+			}
+		}
+		function fnSetInterval()
+		{
+			oSetInt = setInterval(function(){fnCheckWin()},1000);
+		}
+		function fnClearInterval()
+		{
+			clearInterval(oSetInt);
+		}
+		//This function keeps checking the course window is closed or not
+		function fnCheckWin()
+		{
+		if (!oCourseWinST)
+	    {
+		  //alert("Course window has never been opened!")
+	    }
+		else
+	    {
+			// alert("checking course window");
+			if (oCourseWinST.closed)
+			{
+				//alert("exit au called");
+				fnClearInterval()
+				//fnLMSExit();
+			}
+			else
+			{
+				if(nIsSISet ==0) {
+				  nIsSISet = 1
+				  fnSetInterval();
+				}
+			}
+		}
+	}
+	
+	
+	</script>
+	</head>
+	 <body oncontextmenu="return false;">
+		<div id="preloader" class="preloader LangPage" style="display:none;"><div></div></div>
+		<div class="header">
+			<div class="index_header">
+				<div class="inner_container index_inner_container">
+					<div class="left_end fleft">
+						<div class="logo fleft">
+							<a href="#"><img src="shell/framework/images/logo_index.png"></img></a>
+						</div>	
+					</div>
+					<div class="center_part fleft">
+						<div class="title fleft">
+							<h3 class="courseName"></h3>
+							<div class="tooltip">Tooltip!</div>
+							<!-- <h1 class="moduleName">Module Name Appears Here</h1>    -->                 
+						</div>
+					</div>
+					<a title="Exit" href="#" class="course_logout_clkbtn">
+						<img src="shell/framework/images/cross.png">
+					</a>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- course_LOGOUT_POPUP -->
+		<div class="modal common_popup coursepopupLogout" style="display:none;">
+			<div class="modal-content pop_container feedback_pop_container wow fadeIn" data-wow-duration="1s">
+				<!-- <div class="pop_close_btn logoutPop_close_btn"><a href="">
+			<img src="framework/images/cross.png"></a></div> -->
+				<hr class="border_design"></hr>
+				<div class="feedback_pop">
+					<h3>Confirm</h3>
+					<p class="feedback_instruction text-center">Are you sure you want to exit the course?</p>
+				</div>
+				<div class="text-center log_s_n">
+					<a href="#" class="course_logoutPop_clk_btn text-center pop_radius_btn_1" data-wow-duration="1s">Yes</a>
+					<a href="#" class="course_logoutPop_close_btn text-center pop_radius_btn_1" data-wow-duration="2s">No</a>
+				</div>
+			</div>
+		</div>
+		<!-- course_LOGOUT_POPUP -->
+			<!-- INTRO VIDEO START -->
+		<div class="video_container" style="display:none;">
+			<div class="introVideo">	
+				<video id="introVideo" seekbarControl="enabled" poster="" style="width: 100%; background: #000;"> 
+					<source src="" type="video/mp4">			
+				</video>
+				<div class="intro_player_bg">
+					<div id="play-pause" class="play"></div>
+					<div id="custom-seekbar"><span class="custom-timer"></span><span class="custom-seekbar"><span class="time-current"></span><span class="time-handle"></span></span></div>
+					<div class="continue_btn modulecontinue_clkbtn"></div>	
+				</div>	
+			</div>
+			<div class="courseRunInfo" style="display:none;">Online activity is in progress. Do not close this page.</div>
+		</div>
+	<!-- INTRO VIDEO START -->
+		<div class="inner_container index_inner_container index_cnt_wrapper" style="display:none;">
+			<div class="select_language">
+				<h1>Please Select Your Language</h1>
+			</div>
+		</div>
+		<div class="wrapper" style="display:none;">
+			<div class="magnifyme"></div>
+		</div>
+		<div class="clear"></div>
+		<div id="photos-info">
+			<div id="photos-name"></div>
+			<ul class="silde_dots text-center"></ul>
+		</div>
+		<div class="clearfix"></div>
+				<!-- <h6 class="heading1 courseName"></h6> -->
+				<div class="content minreqCont" style="display: none;">
+					<div class="warningimg col-md-2">
+						<div class="lines1"><hr  style="border-top: 1px solid #E8E8E8;"/></div>
+						<img src="shell/framework/images/warn.png" alt="" />
+							<!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+				 width="80" height="80"
+				 viewBox="0 0 252 252"
+				 style="fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,252v-252h252v252z" fill="none"></path><path d="M0,126c0,-69.58788 56.41212,-126 126,-126c69.58788,0 126,56.41212 126,126c0,69.58788 -56.41212,126 -126,126c-69.58788,0 -126,-56.41212 -126,-126zM126,246.96c66.80436,0 120.96,-54.15564 120.96,-120.96c0,-66.80436 -54.15564,-120.96 -120.96,-120.96c-66.80436,0 -120.96,54.15564 -120.96,120.96c0,66.80436 54.15564,120.96 120.96,120.96z" fill="#d35400"></path><g fill="#000000"><g id="surface1"><path d="M125.39329,42.51972c-1.18308,0.18201 -2.21449,0.8949 -2.79087,1.94147l-93.19079,161.38509c-0.69772,1.21342 -0.69772,2.69987 0.01517,3.89812c0.69772,1.19825 1.98698,1.94147 3.38241,1.92631h186.38158c1.39544,0.01517 2.68469,-0.72805 3.38241,-1.92631c0.71289,-1.19825 0.71289,-2.68469 0.01517,-3.89812l-93.19079,-161.38509c-0.78872,-1.42577 -2.39651,-2.19933 -4.00429,-1.94147zM126,54.16857l86.39563,149.73624h-172.79126zM121.51034,102.5841c-0.83423,0 -1.33476,0.50054 -1.33476,1.33476v56.18143c0,0.83423 0.50054,1.45611 1.33476,1.45611h8.97932c0.83423,0 1.33476,-0.62188 1.33476,-1.45611v-56.18143c0,-0.83423 -0.50054,-1.33476 -1.33476,-1.33476zM120.66094,172.71987c-0.5157,0.19718 -0.72805,0.71289 -0.72805,1.33476v10.19274c0,0.83423 0.50054,1.33476 1.33476,1.33476h9.46469c0.83423,0 1.33476,-0.50054 1.33476,-1.33476v-10.19274c0,-0.83423 -0.50054,-1.33476 -1.33476,-1.33476h-9.46469c-0.21235,0 -0.43986,-0.06067 -0.60671,0z"></path></g></g><path d="M126,252c-69.58788,0 -126,-56.41212 -126,-126v0c0,-69.58788 56.41212,-126 126,-126v0c69.58788,0 126,56.41212 126,126v0c0,69.58788 -56.41212,126 -126,126z" fill="none"></path><path d="M126,246.96c-66.80436,0 -120.96,-54.15564 -120.96,-120.96v0c0,-66.80436 54.15564,-120.96 120.96,-120.96h0c66.80436,0 120.96,54.15564 120.96,120.96v0c0,66.80436 -54.15564,120.96 -120.96,120.96z" fill="none"></path><path d="M126,252c-69.58788,0 -126,-56.41212 -126,-126v0c0,-69.58788 56.41212,-126 126,-126v0c69.58788,0 126,56.41212 126,126v0c0,69.58788 -56.41212,126 -126,126z" fill="none"></path><path d="M126,246.96c-66.80436,0 -120.96,-54.15564 -120.96,-120.96v0c0,-66.80436 54.15564,-120.96 120.96,-120.96h0c66.80436,0 120.96,54.15564 120.96,120.96v0c0,66.80436 -54.15564,120.96 -120.96,120.96z" fill="none"></path></g></svg> -->
+					   </div>
+			 </div>
+			 <div class="clear"></div>
+	 <div class="wrapper1 min_req" style="display: none;">
+			<div class="two">
+				<div class="col-md-9 x1 OSInfo" style="display:none;">
+					<div class="col-md-3">
+						<div class="jumbotron well OSobject">	
+							<p class="OSName text-center12"></p>
+							<img class="close2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhP7dNNDoIwEIbhOYjiIRASVkYg3H+vMdwB6Fb7kZkotT9Mt/omLNoOT+gC+kfm2pzMcD7yMthyqQ+mLwte+sPA1FaPuavvMRQYZjCLD+Dt72TQPs8Qumdmk/sC1nykxyQfmo1JDjDyk4dJjAq0wtkY8oHY42NdsSurUQdbAVz1vVfddqM+jI9IjcYwSYV+/nqxQUGTvx4CmryKDWgS+4WIXmFO3sZEYTYaAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 x1 browserInfo" style="display:none;">
+					<div class="col-md-3">
+						<div class="jumbotron well browseobject">
+							<p class="browseName text-center12"></p>
+							<img class="close2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhP7dNNDoIwEIbhOYjiIRASVkYg3H+vMdwB6Fb7kZkotT9Mt/omLNoOT+gC+kfm2pzMcD7yMthyqQ+mLwte+sPA1FaPuavvMRQYZjCLD+Dt72TQPs8Qumdmk/sC1nykxyQfmo1JDjDyk4dJjAq0wtkY8oHY42NdsSurUQdbAVz1vVfddqM+jI9IjcYwSYV+/nqxQUGTvx4CmryKDWgS+4WIXmFO3sZEYTYaAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 x1 popupInfo" style="display:none;">
+					<div class="col-md-3">
+						<div class="jumbotron well">
+							<object data="shell/framework/images/Popup_Icon.svg"></object>
+							<p class="popObject text-center12">pop-up Disabled</p>
+							<img class="close2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhP7dNNDoIwEIbhOYjiIRASVkYg3H+vMdwB6Fb7kZkotT9Mt/omLNoOT+gC+kfm2pzMcD7yMthyqQ+mLwte+sPA1FaPuavvMRQYZjCLD+Dt72TQPs8Qumdmk/sC1nykxyQfmo1JDjDyk4dJjAq0wtkY8oHY42NdsSurUQdbAVz1vVfddqM+jI9IjcYwSYV+/nqxQUGTvx4CmryKDWgS+4WIXmFO3sZEYTYaAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 x1 resolutionInfo" style="display:none;">
+					<div class="col-md-3">
+						<div class="jumbotron well">
+							<object data="shell/framework/images/Resolution_Icon.svg"></object>
+							<p class="resObject text-center12">1600x900</p>
+							<img class="close2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhP7dNNDoIwEIbhOYjiIRASVkYg3H+vMdwB6Fb7kZkotT9Mt/omLNoOT+gC+kfm2pzMcD7yMthyqQ+mLwte+sPA1FaPuavvMRQYZjCLD+Dt72TQPs8Qumdmk/sC1nykxyQfmo1JDjDyk4dJjAq0wtkY8oHY42NdsSurUQdbAVz1vVfddqM+jI9IjcYwSYV+/nqxQUGTvx4CmryKDWgS+4WIXmFO3sZEYTYaAAAAAElFTkSuQmCC">
+						</div>
+					</div>
+				</div>			
+				<div class="clear"></div>	
+			</div>		
+			<p class="con1 minreqContText"></p>
+		</div>
+		<div class="req_container" style="display: none;">
+		<div class="req_button"><span></span> Recommended Requirements</div>
+		<div class="req_content">
+		<table class="table">
+		<thead>
+		<tr>
+		<th>Criteria</th>
+		<th>Recommended</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>Browser</td>
+		<td>IE 11 &amp; above, Chrome 40+, Firefox 40+</td>
+
+		</tr>
+		<tr>
+		<td>Popup Blocker</td>
+		<td>Disabled</td>
+		</tr>
+
+		<tr>
+		<td>Screen Resolution</td>
+		<td><b>PC:	</b>1366 x 768
+		<br/>
+		<b>
+		Tablets/IPad:	</b>2048 x 1536 
+		</br>
+		<b>
+		Mobile:	</b>1080 x 1920
+		</td>
+		</tr>
+		<tr>
+		<td>Operating System/Device</td>
+		<td>
+		<b>
+		PC:	</b>Windows 10 &amp; macOS 10.13
+		<br/>
+		<b>
+		Devices:</b>  Android 7.0 and iOS 11
+		</td>
+		</tr>
+		<tr>
+		<td>PDF Reader</td>
+		<td>Acrobat Reader 10</td>
+		</tr>
+		<tr>
+		<td>LAN Speed</td>
+		<td>1 Gbps</td>
+		</tr>
+		<tr>
+		<td>Internet Connection Speed</td>
+		<td>25 Mbps</td>
+		</tr>
+		<tr>
+		<td>CPU/Processor</td>
+		<td>Core i3</td>
+		</tr>
+		<tr>
+		<td>RAM</td>
+		<td>4 GB</td>
+		</tr>
+		<tr>
+		<td>HDD Space</td>
+		<td>10 GB</td>
+		</tr>
+		</tbody>
+		</table>
+		</div>
+		</div>
+		<div class="footer text-center">
+			<p class="copyRightTxt">Copyright © 2022 Wabtec Corporation</p>
+		</div>
+	</body>
+	<script>
+	/* courseLOGOUTPOPUP */
+	$(".coursepopupLogout").hide();
+	$(".course_logout_clkbtn").click(function(){
+		$(".coursepopupLogout").show();
+	});
+	$(".course_logoutPop_clk_btn").click(function(){
+		 exit();
+		 window.close();
+	});
+	$(".course_logoutPop_close_btn").click(function(){
+		$(".coursepopupLogout").hide();
+	});
+	/* courseLOGOUTPOPUP */
+	</script>
+</html>  
+

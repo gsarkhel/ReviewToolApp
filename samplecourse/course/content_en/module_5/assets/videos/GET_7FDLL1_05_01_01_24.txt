@@ -1,0 +1,180 @@
+﻿GET_7FDLL1_05_01_01_17 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:02,542
+You have reached the end of this module!
+
+2
+00:00:02,542 --> 00:00:04,792
+In this module, you learned to:
+
+3
+00:00:04,792 --> 00:00:07,750
+Define the purpose of the EFI system.
+
+4
+00:00:07,750 --> 00:00:17,167
+The primary purpose of the EFI system is to deliver an appropriate amount of fuel, at the correct time, to each of the cylinders of the diesel engine.
+
+5
+00:00:17,167 --> 00:00:25,708
+The secondary purpose of the EFI system is to monitor and identify the operating parameters and provide engine protection capabilities.
+
+6
+00:00:25,708 --> 00:00:30,750
+State the purpose and location of each EFI system major component.
+
+7
+00:00:30,750 --> 00:00:34,958
+The EFI system consists of four major subgroups:
+
+8
+00:00:34,958 --> 00:00:40,042
+The EFI controller is the microprocessor that controls the EFI system.
+
+9
+00:00:40,042 --> 00:00:43,500
+The EFI controller is a part of the EGU.
+
+10
+00:00:43,500 --> 00:00:52,542
+The main function of the EGU is to control engine speed by controlling the high-pressure fuel pump solenoid located on each cylinder assembly.
+
+11
+00:00:52,542 --> 00:01:00,417
+Through the control of the solenoids, the EGU varies the fuel timing and the amount of fuel delivered to each cylinder.
+
+12
+00:01:00,417 --> 00:01:03,792
+The EGU is located in the aux cab.
+
+13
+00:01:03,792 --> 00:01:17,000
+The purpose of the diesel engine speed sensor and the top dead center probe is to provide information to the EGU to determine the engine position in relation to rotational position on the left cam and the engine speed (RPM).
+
+14
+00:01:17,000 --> 00:01:30,625
+The speed sensors are located at one of two possible locations on the 7FDL engine: either on a bracket inside the crankcase at the alternator end of the engine, or outside the crankcase on the left alternator end of the engine.
+
+15
+00:01:30,625 --> 00:01:35,417
+The engine position sensor is located on the left cam gear cover.
+
+16
+00:01:35,417 --> 00:01:47,458
+The purpose of the system sensors is to calculate the correct air-to-fuel ratio and set fuel limits for the cylinders and to provide engine protection by monitoring certain engine support parameters.
+
+17
+00:01:47,458 --> 00:01:53,750
+The purpose of the mechanical components is to deliver the correct amount of fuel to the cylinders for combustion.
+
+18
+00:01:53,750 --> 00:02:00,625
+The mechanical components include a high-pressure fuel pump, a high-pressure fuel line and an injector.
+
+19
+00:02:00,625 --> 00:02:05,458
+The high-pressure fuel pump is mounted to the cylinder strongback.
+
+20
+00:02:05,458 --> 00:02:08,792
+The injector is mounted to the cylinder head.
+
+21
+00:02:08,792 --> 00:02:11,958
+The fuel lines connect the two components.
+
+22
+00:02:11,958 --> 00:02:17,417
+State the purpose and location of each EFI system instrumentation device.
+
+23
+00:02:17,417 --> 00:02:20,417
+There are two types of system sensors:
+
+24
+00:02:20,417 --> 00:02:22,542
+Fuel Management sensors
+
+25
+00:02:22,542 --> 00:02:29,167
+The FIMAP takes a pressure tap off the air intake manifold located at the left 8-cylinder location.
+
+26
+00:02:29,167 --> 00:02:35,208
+The pressure tap feeds into a sensor box located next to the L8 cylinder.
+
+27
+00:02:35,208 --> 00:02:41,333
+The FIMAT is a thermistor that is used to sense the air temperature in the air intake manifold.
+
+28
+00:02:41,333 --> 00:02:51,417
+The EGU uses this air temperature information and the pressure reading information to calculate the density of the air supplied to the cylinders for combustion.
+
+29
+00:02:51,417 --> 00:02:56,708
+It is located in the sensor box next to the L8 cylinder location.
+
+30
+00:02:56,708 --> 00:02:58,958
+Engine Protection sensors
+
+31
+00:02:58,958 --> 00:03:04,917
+The FIOP1 sensor supplies lubricating oil pressure information to the EGU.
+
+32
+00:03:04,917 --> 00:03:11,500
+This information is used to protect the engine from serious damage resulting from low oil pressure.
+
+33
+00:03:11,500 --> 00:03:17,042
+The FIWPS sensor supplies engine cooling water pressure to the EGU.
+
+34
+00:03:17,042 --> 00:03:23,708
+This information is used to protect the engine from serious damage resulting from low water pressure.
+
+35
+00:03:23,708 --> 00:03:29,500
+The FIEWT sensor provides engine water temperature information to the EGU.
+
+36
+00:03:29,500 --> 00:03:36,542
+The EGU uses the water sensor information to determine the right fuel-to-air ratio when the engine is cold.
+
+37
+00:03:36,542 --> 00:03:42,417
+These sensors are located in a sensor box at the left side alternator end of the engine.
+
+38
+00:03:42,417 --> 00:03:45,542
+Describe how the EFI system works.
+
+39
+00:03:45,542 --> 00:03:57,125
+Fuel, from the low-pressure fuel system, flows into the high-pressure fuel pump, and is released into the combustion chamber after passing through the high-pressure fuel line and injector.
+
+40
+00:03:57,125 --> 00:04:07,458
+The EGU controls the high-pressure fuel solenoids located on each cylinder assembly to vary the fuel timing and the amount of fuel delivered to each cylinder.
+
+41
+00:04:07,458 --> 00:04:14,250
+The engine position sensors provide information to the EGU to determine the rotational position of the engine.
+
+42
+00:04:14,250 --> 00:04:19,750
+The crank sensors 1 and 2 provide information to the EGU about engine speed.
+
+43
+00:04:19,750 --> 00:04:25,000
+The EGU uses this information to calculate the correct fuel delivery timing.
+
+44
+00:04:25,000 --> 00:04:42,042
+The fuel management sensors, FIMAP and FIMAT, provide information to the EGU to calculate the density of air supplied for combustion, determine the air-to-fuel ratio, and thus control the amount of fuel delivered to the combustion chamber.
+
+45
+00:04:42,042 --> 00:04:54,625
+The engine protection sensors, FIOP1, FIWPS, and FIEWT, provide diagnostic information to the EGU for engine protection.

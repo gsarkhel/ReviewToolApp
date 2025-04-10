@@ -1,0 +1,16 @@
+﻿GET_7FDLL1_05_01_01_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:16,500
+The EFI system monitors and identifies certain operating parameters and, if those parameters are detected as being outside normal limits, will alert the microcomputer system to reduce engine speed and/or alternator load and excitation.
+
+2
+00:00:16,500 --> 00:00:24,567
+Sensors within the EFI system send the information related to the engine’s operating conditions to the Smart Displays.
+
+3
+00:00:24,567 --> 00:00:33,300
+The difference between the EFI system and a mechanical fuel system is the ability of the EFI system to control fuel delivery timing.
+
+4
+00:00:33,300 --> 00:00:40,500
+A solenoid, which receives electrical signals from the EFI computer, can tightly control fuel delivery timing.

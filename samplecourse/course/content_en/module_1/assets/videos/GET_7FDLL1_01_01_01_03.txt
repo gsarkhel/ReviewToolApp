@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_01_01_01_03 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:07,750
+As with any product as all-encompassing as the combustion engine, variations and improvements have developed over time.
+
+2
+00:00:07,750 --> 00:00:14,875
+One of the prominent and well-known deviations from the traditional gasoline engine was the development of the diesel engine.
+
+3
+00:00:14,875 --> 00:00:19,167
+So, how is the diesel engine different from the gasoline engine?

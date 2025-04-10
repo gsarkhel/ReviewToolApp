@@ -1,0 +1,8 @@
+﻿GET_7FDLL1_05_01_01_12_sp_02 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:05,458
+The high-pressure fuel line connects the high-pressure fuel pump to the injector.
+
+2
+00:00:05,458 --> 00:00:09,333
+It transfers fuel from the pump to the injector.

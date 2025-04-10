@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_02_01_01_05 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:07,083
+The cylinders are numbered from the free end to the alternator or generator end of the engine.
+
+2
+00:00:07,083 --> 00:00:13,667
+The No.1 right and No.1 left cylinders are nearest the turbocharger on all our diesel engines.
+
+3
+00:00:13,667 --> 00:00:21,417
+The right side or left side of the engine is determined when viewing the engine while facing the generator or alternator end of the engine.
+
+4
+00:00:21,417 --> 00:00:25,292
+The right side of the engine is on the left side of the locomotive.
+
+5
+00:00:25,292 --> 00:00:34,542
+During engine operation, the crankshaft rotates counterclockwise when viewed from the alternator end and clockwise when viewed from the free end.

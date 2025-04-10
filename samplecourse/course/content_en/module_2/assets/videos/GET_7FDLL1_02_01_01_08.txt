@@ -1,0 +1,12 @@
+﻿GET_7FDLL1_02_01_01_08 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:09,708
+To meet the Tier 0 standards, modified 7FDL diesel engines were first put into production on January 1<sup>st</sup>, 2001.
+
+2
+00:00:09,708 --> 00:00:21,417
+All 7FDL engines manufactured between January 1<sup>st</sup>, 2001 and December 31<sup>st</sup>, 2001, were compliant with Tier 0 emission standards.
+
+3
+00:00:21,417 --> 00:00:37,542
+Once the Tier 0 standards became effective in 2000, the standards also applied to all locomotive engines originally manufactured from 1973 through 2001, and included both newly manufactured and remanufactured engines.

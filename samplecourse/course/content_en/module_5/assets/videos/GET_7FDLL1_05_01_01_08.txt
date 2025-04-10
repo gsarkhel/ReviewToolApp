@@ -1,0 +1,20 @@
+﻿GET_7FDLL1_05_01_01_08 - ANIMATION Screen
+1
+00:00:00,000 --> 00:00:08,125
+The engine position sensor, located on the left cam gear cover, is a magnetic pickup that sends pulses to the EGU.
+
+2
+00:00:08,125 --> 00:00:13,667
+The EGU uses this information to determine the rotational position of the engine.
+
+3
+00:00:13,667 --> 00:00:24,125
+The crankshaft speed sensors are magnetic pickups that detect engine speed by means of a tone ring located at the alternator end of the split gear on the crankshaft.
+
+4
+00:00:24,125 --> 00:00:45,042
+The speed sensors are located at one of two possible locations on the 7FDL engine: either on a bracket inside the crankcase at the alternator end of the engine reading off a tone ring on the split gear, or outside the crankcase on the left alternator end of the engine reading off a timing ring assembled to the crankshaft.
+
+5
+00:00:45,042 --> 00:00:53,250
+Note that only one of the two speed sensors is required to run the engine; the second sensor is a backup in case of a sensor failure.

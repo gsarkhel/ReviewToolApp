@@ -1,0 +1,359 @@
+<glossary alphabets="a:b:c:d:e:f:h:i:l:m:n:p:r:s:t:v:w:y">
+<Item Name="Adapter">
+<Description>Adapters are used with torque wrenches to reach inaccessible bolts or nuts.</Description></Item>
+
+<Item Name="Air Intake Manifold">
+<Description>Intake air enters the cylinder head from the common air intake manifold.</Description></Item>
+
+<Item Name="Air Valve">
+<Description>The air valve turns on and shuts off the air-driven pump.</Description></Item>
+
+<Item Name="Alignment Rings">
+<Description>Some GEVO diesel engines are equipped with special alignment rings for the oil pump. These rings adjust the backlash of the pump gears with the auxiliary drive gears.</Description></Item>
+
+<Item Name="Angular Torque">
+<Description>The angular torque is the angle through which a connecting rod bearing cap bolt is rotated using a hydraulic wrench.</Description></Item>
+
+<Item Name="Auxiliary Drive Gear">
+<Description>Some parts mounted on the engine's IFE cover, such as the water pump and lube oil pump, are driven by the auxiliary drive gear. This drive gear is assembled to the end of the crankshaft.</Description></Item>
+
+<Item Name="Barring-Over Device">
+<Description>The barring-over device is used to slowly rotate the engine crankshaft and connected devices, such as the camshaft, connecting rods and pistons. Use the barring-over device to turn the engine until the pointer in the barring-over gearbox timing window aligns with the degree mark on the camshaft gear specified on the pump timing plate.</Description></Item>
+
+<Item Name="Bolt Material Strength">
+<Description>Bolt material strength is determined by the alloy and processing methods, such as cold working and heat treating.</Description></Item>
+
+<Item Name="Cam Follower Retainers">
+<Description>The cam follower retainers secure the cam followers.</Description></Item>
+
+<Item Name="Cam Followers">
+<Description>A cam follower is a specialized type of roller designed to follow tracks or cams.</Description></Item>
+
+<Item Name="Camshaft">
+<Description>The camshafts, driven by an auxiliary gear off of the crankshaft, provide the rotational energy via camshaft lobes to actuate the valve train components to open the intake and exhaust valves and to operate the high-pressure fuel pumps. In addition, the camshafts serve as the main oil headers for the engine.</Description></Item>
+
+<Item Name="Camshaft Bearing Journal">
+<Description>The camshaft bearing journal is the component assembled between each camshaft section to fit into a camshaft sleeve bearing that is pressed into the mainframe.</Description></Item>
+
+<Item Name="Camshaft Section Covers">
+<Description>Twelve camshaft section covers on the mainframe, six on each side, provide access for removal and installation of the camshaft sections and bearings.</Description></Item>
+
+<Item Name="Clamping Force">
+<Description>Clamping force is the force that holds the engine components together, which is created by stretching the bolt and not just tightening the bolt or nut.</Description></Item>
+
+<Item Name="Clamping Load">
+<Description>The tension of the fastener trying to relax back to its original length produces clamping load, which is the force that holds the components together. </Description></Item>
+
+<Item Name="Combustion Air System">
+<Description>The combustion air system supplies compressed air to the power assembly for combustion.</Description></Item>
+
+<Item Name="Combustion Chamber">
+<Description>The combustion chamber is the space within the cylinder liner where combustion of the air and fuel mixture occurs.</Description></Item>
+
+<Item Name="Compression Release Valves">
+<Description>The compression release valves on the cylinders are used to prevent the pressure building up in the combustion chamber.</Description></Item>
+
+<Item Name="Connecting Rod">
+<Description>Connecting rods connect the pistons to the crankshaft. They transfer the linear energy produced by the rapid expansion of gases in the combustion chamber to the crankshaft, where it is converted into rotational energy.</Description></Item>
+
+<Item Name="Connecting Rod Bearing Cap">
+<Description>The connecting rod bearing cap connects the connecting rod to the crankshaft.</Description></Item>
+
+<Item Name="Connecting Rod Bearings">
+<Description>A connecting rod has an upper and a lower bearing. The upper bearing is placed on the connecting rod, and the lower bearing is placed on the connecting rod bearing cap.</Description></Item>
+
+<Item Name="Crankcase Inspection Covers">
+<Description>Twelve crankcase inspection covers on the mainframe, six on each side, provide access for maintenance and inspection of engine components, such as crankshaft bearings, connecting rods, and connecting rod bearings.</Description></Item>
+
+<Item Name="Crankshaft">
+<Description>The engine crankshaft converts the linear motion of the pistons into radial motion to drive the alternator. It runs through the center of the mainframe.</Description></Item>
+
+<Item Name="Cylinder Head">
+<Description>The cylinder head forms the top of the combustion chamber.</Description></Item>
+
+<Item Name="Cylinder Liner">
+<Description>The cylinder liner is a heavy-walled tube, which forms the walls of the combustion chamber. The cylinder liner is supported by the cylinder strongback. 
+</Description></Item>
+
+<Item Name="Cylinder Strongback">
+<Description>The cylinder strongback supports the liner to the mainframe, provides passageways for lubricating oil and cooling water to enter the cylinder head, and also provides the outside wall of the cooling jacket to provide cooling to the combustion chamber. </Description>
+</Item>
+
+<Item Name="Cylinder Liner O-rings">
+<Description>O-rings assembled to the cylinder liner seal off the water flow path, which circulates around the top of the cylinder liner to cool the combustion chamber.</Description>
+</Item>
+
+<Item Name="Dead Cylinder Detection Test">
+<Description>In the Dead Cylinder Detection (DCD) test, a computer cuts out the cylinders one at a time and then cuts them back in, monitoring engine output for a drop in horsepower to determine if a cylinder is performing as expected.</Description></Item>
+
+<Item Name="Digital Wrench">
+<Description>The clicker torque wrench, sometimes called a digital wrench, works by preloading a "snap" mechanism with a spring to release at a specified torque.</Description></Item>
+
+<Item Name="Eccentric Lobes">
+<Description>The three eccentric lobes on each camshaft section supply the mechanical energy required to open the associated intake and exhaust valves and to operate the associated high-pressure fuel pump.</Description></Item>
+
+<Item Name="Engine Cooling Water System">
+<Description>The purpose of the engine cooling water system is to maintain a nearly constant engine operating temperature throughout the load range of the engine, despite wide variations in outside temperature.</Description></Item>
+
+<Item Name="Engine Oil Dipstick And Fill">
+<Description>An engine oil dipstick and fill, located on both the A-side and the B-side of the locomotive at the Integrated Front End (IFE) cover, is used to check the level and, if necessary, fill the lubricating oil.</Description></Item>
+
+<Item Name="Exhaust Manifolds">
+<Description>The exhaust manifolds, located at the top of the diesel engine, channel the engine exhaust gases from the cylinder exhaust ports to the turbocharger.</Description></Item>
+
+<Item Name="Exhaust Port">
+<Description>The exhaust port is cast into the cylinder head to allow exhaust to exit the cylinder head.</Description></Item>
+
+<Item Name="Exhaust Valves">
+<Description>The two exhaust valves allow exhaust to leave the combustion chamber.</Description></Item>
+
+<Item Name="Fuel Pump Horseshoe Retainer">
+<Description>The fuel pump horseshoe retainer is used to secure the fuel pump roller.</Description></Item>
+
+<Item Name="High-Pressure Fuel Injector">
+<Description>The high-pressure fuel injector is a check valve that receives fuel from the high-pressure fuel pump through the high-pressure fuel line. The injector atomizes the fuel and supplies it to the combustion chamber.</Description></Item>
+
+<Item Name="High-Pressure Fuel Line">
+<Description>The high-pressure fuel line supplies fuel from the high-pressure fuel pump to the high-pressure fuel injector.
+</Description></Item>
+
+<Item Name="High-Pressure Fuel Pump">
+<Description>The high-pressure fuel pump is a solenoid-controlled booster pump that receives fuel from the low-pressure fuel system and boosts the pressure to atomize the fuel delivered to the combustion chamber.</Description></Item>
+
+<Item Name="High-Pressure Fuel Pump Piston">
+<Description>The high-pressure fuel pump piston in the high-pressure fuel pump raises the pressure of the fuel trapped in the high-pressure fuel pump bore.</Description></Item>
+
+<Item Name="High-Pressure Fuel Pump Roller">
+<Description>The high-pressure fuel pump roller on the high-pressure fuel pump rides the fuel lobe on the camshaft to raise the pressure of the fuel trapped in the fuel pump.</Description></Item>
+
+<Item Name="High-Pressure Fuel Pump Solenoid">
+<Description>A solenoid attached to the high-pressure fuel pump controls a shuttle valve in response to a signal from the ECU.</Description></Item>
+
+<Item Name="High-Pressure Fuel System">
+<Description>The high-pressure fuel system boosts the fuel pressure supplied to the cylinders and delivers an appropriate amount of pressurized fuel, at the appropriate time, to each of the cylinders of the diesel engine. The high-pressure fuel system comprises the high-pressure fuel pump, high-pressure fuel line, and the high-pressure fuel injector.</Description>
+</Item>
+
+<Item Name="Hydraulic Cylinder">
+<Description>A hydraulic cylinder threads onto the bolt or stud and then stretches it to its recommended tension.</Description>
+</Item>
+
+<Item Name="Hydraulic Pump">
+<Description>A hydraulic pump produces high pressure required to operate the tensioning cylinders.</Description>
+</Item>
+
+<Item Name="Hydraulic Tensioner">
+<Description>The hydraulic tensioner is used to tension or de-tension studs.</Description>
+</Item>
+
+<Item Name="Hydraulic Wrench">
+<Description>A hydraulic wrench is a tool used to loosen or torque bolts using hydraulics.</Description>
+</Item>
+
+<Item Name="Inch Standard">
+<Description>Inch standard is the standard set by the American Society for Testing Materials (ASTM) specifying the shape, material, and finish of a bolt.</Description>
+</Item>
+
+<Item Name="Injector Clamp">
+<Description>The injector clamp secures the high-pressure fuel injector to the cylinder head.</Description>
+</Item>
+
+<Item Name="Intake Port">
+<Description>The intake port is cast into the cylinder head to allow air to enter the cylinder head.</Description>
+</Item>
+
+<Item Name="Intake Valves">
+<Description>The two intake valves allow air to enter the combustion chamber.</Description>
+</Item>
+
+<Item Name="Integrated Front-End Cover">
+<Description>The Integrated Front-End (IFE) cover provides the mounting locations for the turbocharger and water and oil pumps. The IFE cover houses the passageways for the cooling water and lubricating oil to enter the engine.</Description>
+</Item>
+
+<Item Name="Intercoolers">
+<Description>Located in the upper section of the radiator cab adjacent to the turbocharger, the water-based intercooler provides the first-stage of cooling for the compressed engine intake air discharged from the turbocharger, while the air-to-air intercooler provides a second stage of cooling.</Description>
+</Item>
+
+<Item Name="Internal Relief Valve">
+<Description>An internal relief valve in the lubricating oil pump protects the pump from overload conditions or very high back pressure, which could occur if the system is too restrictive.</Description>
+</Item>
+
+<Item Name="Long Power Assembly">
+<Description>A long power assembly consists of the cylinder head, strongback with cylinder liner, piston with rings, and connecting rod.</Description>
+</Item>
+
+<Item Name="Low-Pressure Fuel Block">
+<Description>The low-pressure fuel block connects the high-pressure fuel pump to the low-pressure fuel lines.</Description>
+</Item>
+
+<Item Name="Low-Pressure Fuel Lines">
+<Description>The low-pressure fuel lines return and supply low-pressure fuel to the high-pressure fuel pump.</Description>
+</Item>
+
+<Item Name="Lubricating Oil Pump">
+<Description>The lubricating oil pump is mounted on the engine's IFE cover. This pump supplies pressurized lubricating oil to the engine's moving parts.</Description>
+</Item>
+
+<Item Name="Metric Standard">
+<Description>Metric standard is the standard set by the International Organization for Standardization (ISO) in Europe specifying the shape, material, and finish of a bolt.</Description>
+</Item>
+
+<Item Name="Mainframe">
+<Description>The mainframe is a large one-piece ductile iron casting that acts as a main structure to which all other engine components are attached.</Description>
+</Item>
+
+<Item Name="Main Bearings">
+<Description>Main bearings, comprising the upper and lower bearing halves, are semi-circular bearings that support the crankshaft within the engine. The upper main bearing half has a center oil groove and is used in the mainframe bearing saddle. A partial grooved bearing is used in the lower main bearing position.</Description>
+</Item>
+
+<Item Name="Main Bearing Cap">
+<Description>Main bearing caps are machined steel castings that secure the main bearings to the engine mainframe, thus allowing the bearings to support the crankshaft.</Description>
+</Item>
+
+<Item Name="Needle Valve">
+<Description>The needle valve regulates the output pressure of the pump.</Description>
+</Item>
+<Item Name="Nut Face Friction">
+<Description>Nut face friction is caused by metal-to-metal contact between the nut face and the mating surface as the nut is being turned, sometimes by dirt or corrosion.</Description>
+</Item>
+<Item Name="Piston Assembly">
+<Description>The piston assembly, comprising the piston crown, the piston skirt, the piston pin boss, the piston pin, and the piston rings, forms the lower part of the combustion chamber and transmits the gas forces to the connecting rod. </Description>
+</Item>
+<Item Name="Piston Centering Saddle">
+<Description>The piston centering saddle keeps the piston from falling over by its own weight.</Description>
+</Item>
+<Item Name="Piston Retainers">
+<Description>Piston retainers are installed to the bottom of the liner to hold the piston and connecting rod in the cylinder bore as the long power assembly is lifted.</Description>
+</Item>
+<Item Name="Power Assembly">
+<Description>The power assembly controls the expansion of gases from combustion. </Description>
+</Item>
+<Item Name="Preload Force">
+<Description>Preload force is the tension caused by tightening the fastener that holds the assembled parts together.</Description>
+</Item>
+
+<Item Name="Pre-Turbine Left Temperature Sensor ">
+<Description>The Pre-Turbine Left Temperature (PTLT) sensor is located in the left exhaust manifolds at the connection points between the manifolds and the turbocharger. It measures the temperature of the exhaust air entering the turbocharger and provides temperature information to the ECU.</Description>
+</Item>
+
+<Item Name="Pre-Turbine Right Temperature Sensor">
+<Description>The Pre-Turbine Right Temperature (PTRT) sensor is located in the right exhaust manifolds at the connection points between the manifolds and the turbocharger. It measures the temperature of the exhaust air entering the turbocharger and provides temperature information to the ECU.</Description>
+</Item>
+
+<Item Name="Pushrods">
+<Description>The pushrods transfer the mechanical energy from the eccentric lobes on the camshaft to the rocker arms.
+</Description>
+</Item>
+<Item Name="Piston Pin Boss">
+<Description>The iron piston pin boss provides high strength in the piston pin area to handle the high combustion pressures of the GEVO diesel engine. It is attached to the piston crown with four high-strength bolts and to the connecting rod by the piston pin. The piston pin boss provides a lubrication path to carry oil from the piston pin to the piston crown area to cool the piston crown.</Description>
+</Item>
+<Item Name="Piston Crown">
+<Description>The top of the piston, known as the piston crown, is contoured to form the bottom of the combustion chamber. This steel crown provides three grooves for the piston rings. Lubricating oil traveling up through the connecting rod cools the bottom side of the crown. The crown is bolted to the piston pin boss using four high-strength bolts.</Description>
+</Item>
+<Item Name="Piston Pin">
+<Description>The piston is connected to the connecting rod by a piston pin that slides through the piston pin boss and the small end of the connecting rod.
+</Description>
+</Item>
+<Item Name="Piston Rings">
+<Description>The two top piston compression rings expand against the cylinder liner to seal the combustion chamber and control the rapid expansion of gases when combustion occurs. The lower piston oil control ring, also called the oil scraper ring, controls piston ring lubrication.</Description>
+</Item>
+<Item Name="Piston Skirt">
+<Description>The forged aluminum piston skirt articulates and is held in place by the piston pin and two retaining clips. It reacts to the thrust loads of the connecting rod. As opposed to the circular piston crown, the piston skirt is oval, with the long axis perpendicular and the short axis parallel to the piston pin.</Description>
+</Item>
+
+<Item Name="Reaction Fixture/Arm">
+<Description>A reaction fixture/arm is a tool that provides a reaction point while loosening or torquing connecting rod bearing cap bolts.</Description>
+</Item>
+<Item Name="Rocker Arms">
+<Description>The intake and exhaust rocker arms rotate or rock on a common shaft. The rocker arms, in conjunction with the valve bridges, have adjustable tappets to set the valve lash.</Description></Item>
+<Item Name="Retaining Clips">
+<Description>Two spring retaining clips, also referred to as snap rings, are assembled into grooves in the piston pin boss to lock the pin into place.</Description></Item>
+
+<Item Name="Short Power Assembly">
+<Description>A short power assembly consists of the cylinder head and strongback with cylinder liner.</Description>
+</Item>
+<Item Name="Shuttle Valve">
+<Description>The shuttle valve in the high-pressure fuel pump traps the fuel in the pump bore. It is controlled by the solenoid on the high-pressure fuel pump.</Description>
+</Item>
+<Item Name="Split Cooling Water System">
+<Description>The split cooling water system maintains a nearly constant engine operating temperature throughout the load range of the engine, even with wide variations in outside temperature and throttle call.</Description>
+</Item>
+<Item Name="Stretching">
+<Description>Stretching or elongation is a method to calculate clamping force by measuring the elongation of a bolt. This is accomplished by measuring the length of the bolt before the force is applied and measuring it again after the force has been applied to determine the amount of stretch or elongation.</Description>
+</Item>
+<Item Name="Tensile Strength ">
+<Description>Tensile strength, sometimes called ultimate strength, is the stress level at which the material breaks. It is always higher than the yield strength.</Description>
+</Item>
+<Item Name="Tensioner Base">
+<Description>The tensioner base rests on engine components and provides an anchor for the pulling or stretching force.
+</Description>
+</Item>
+<Item Name="Tensioning">
+<Description>Tensioning is a method to generate clamping force that is equal to the amount of force applied to the bolt or stud by a hydraulic tensioner. With a tensioner, hydraulic pressure is applied to pull or stretch a bolt or stud and, after the bolt or stud is elongated, the nut is moved down the threads until the nut contacts the mating surface to hold the stretched bolt or stud in its new position.</Description>
+</Item>
+<Item Name="Thread Friction">
+<Description>Thread friction is caused by irregularities in the thread surfaces, dirt, and corrosion.</Description>
+</Item>
+<Item Name="Thread Pitch">
+<Description>Thread pitch is defined as the number of threads per inch (Inch standard) or the distance between two adjacent threads (Metric standard).</Description>
+</Item>
+<Item Name="Thread Torsion">
+<Description>Thread torsion, also referred to as twist, occurs when the bolt begins to twist under applied torque. 
+</Description>
+</Item>
+
+<Item Name="Timing Plate">
+<Description>The timing plate on the diesel engine provides the degree reading to which the camshaft gear must be rotated to attain valve lash for a particular cylinder.</Description>
+</Item>
+<Item Name="Timing Window">
+<Description>The degree marks on the camshaft gear can be viewed through the timing window.</Description>
+</Item>
+<Item Name="Torque Wrench">
+<Description>A torque wrench is a tool that is used to apply a specific torque to a nut or bolt.
+</Description>
+</Item>
+<Item Name="Torquing">
+<Description>Torquing is a controlled method of tightening threaded fasteners where rotary force is applied as a nut travels over the threads of a bolt or a bolt travels over the threads of a bolt hole. The rotary force applied to the nut or bolt is measured by a torque wrench.
+</Description>
+</Item>
+<Item Name="Turbocharger">
+<Description>An exhaust-driven air compressor, the turbocharger compresses air for use by the engine during the combustion process.</Description>
+</Item>
+<Item Name="Turbocharger Right Speed Sensor ">
+<Description>The Turbocharger Right Speed (TRS) sensor measures the rotational speed of the turbocharger and provides speed information to the Engine Control Unit (ECU).</Description>
+</Item>
+<Item Name="Valve Bridge Adjustment Screws and Retaining Nuts">
+<Description>The valve bridge adjustment screws are used to adjust the intake and exhaust valve clearances. The retaining nuts "retain" or hold the adjusting screws in their newly adjusted position.</Description>
+</Item>
+<Item Name="Valve Bridges">
+<Description>The intake and exhaust valve bridges span the intake and exhaust valves and provide adjustment for uniform valve operation. The valve bridges are depressed by intake or exhaust rocker mechanisms driven by the push rods and eccentric lobes on the camshaft.</Description>
+</Item>
+
+<Item Name="Valve Clearance">
+<Description>The valve clearance, also referred to as the valve lash, allows thermal expansion of the valve train components while maintaining proper valve train operation.</Description>
+</Item>
+
+<Item Name="Valve Lash">
+<Description>The valve lash allows growth of the valve train components due to thermal expansion while maintaining proper valve train operation.</Description>
+</Item>
+<Item Name="Valve Rotators">
+<Description>Each valve is assembled to the cylinder head with a valve rotator. The rotators incrementally rotate the valves during operation to provide uniform valve seat wear.</Description>
+</Item>
+<Item Name="Valve Springs">
+<Description>The intake and exhaust valves are assembled to the cylinder head with valve springs. The valve springs supply the mechanical energy to close the valves, sealing off the combustion chamber.</Description>
+</Item>
+<Item Name="Valve Tappet Adjustment Screws and Retaining Nuts">
+<Description>The valve tappet adjustment screws are used to adjust the clearance between the rocker arm tappet and valve bridge. The retaining nuts "retain" or hold the adjusting screws in their newly adjusted position.</Description>
+</Item>
+<Item Name="Valve Train">
+<Description>The valve train includes the components transferring the lifting motion from the camshaft eccentric lobes via push rods to the rocker arms, which push on the valve bridges, which then push down on the intake and exhaust valves, causing them to open. As the camshaft lobes continue to rotate, the lifting motion is removed, allowing the valve springs to close the valves.</Description>
+</Item>
+<Item Name="Water Pump">
+<Description>The water pump on the diesel engine supplies cooling water to the engine to remove heat caused by friction and combustion.</Description>
+</Item>
+<Item Name="Weep Hole">
+<Description>A weep hole, located at the bottom of the water pump between the oil seal on the engine side and the water seal on the radiator cab side, provides a "tell-tale" indication of leaks internal to the water pump.</Description>
+</Item>
+<Item Name="Yield Strength ">
+<Description>Yield strength is the stress level at which the material yields or permanently deforms.</Description>
+</Item>
+</glossary>
