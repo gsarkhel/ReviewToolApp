@@ -414,7 +414,7 @@
 </div><!--closing of left contain-->
 
 <div class="rightcontain">
-   <div id="revTool" class="revTool svg" title="Review" style="visibility: visible;">
+   <div id="revTool" class="revTool svg" title="Review" style="visibility: hidden;">
 	<img src="framework/images/Review_Tool.png" >
 	</div>
 	
@@ -531,36 +531,6 @@
 <!--CopyRight Information -->
 <p class="copyRightTxt"></p>
 <!--CopyRight Information -->
-<!--Review Tool-->
-<script>	
-// getfilesize
-$("#getsize").click(function(){ 
- $("#getmodulesize").toggle();
- })
- // getfilesize
-	$('#revTool').click(function(e) {
-		var modName=$(".moduleName").html();
-		var pgName=$(".pageName").html();
-		var pgInfo=currPageNum+" of "+pageTypeArray[currModule-1].length;
-		var crseId;
-		
-		if(window.opener!=null) {
-			crseId = window.opener.courseId;
-		} else {
-			crseId = "";
-		}
- 		var passing_coursedetails = currModule+"_"+"1_"+"1_"+currPageNum;
-		 //alert(passing_coursedetails)
-		//alert(subPageNum)
-		launchReviewTool(crseId,currModule,pgName,passing_coursedetails,modName,pgInfo);
-	});
-	function launchReviewTool(CourseID,ModuleNumber,PageName,PageID,moduleName,pageState)
-	{
-		fnAudioVideoPause(true);
-		window.open("http://originlearning.in/ocritiq/login.php?courseId="+CourseID+"&ModuleNo="+ModuleNumber+"&ModuleName="+moduleName+"&pageId="+PageID+"&PageName="+PageName+"&PageInfo="+pageState+"&pageTitle="+PageName+"&userNa=Reviewer&changeuser=t","srdas"); 
-	}
-</script>
-<!--Review Tool-->
 </body>
 </html>
 
