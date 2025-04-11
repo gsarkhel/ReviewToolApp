@@ -32,7 +32,7 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
     );
   }
   const viewComBtn = createButton(
-    'View Comment',
+    'View Comments',
     'viewComBtn',
     reviewToolWrapper
   );
@@ -93,7 +93,7 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   });
   // ================================
   function sendDataToFrame() {
-    const pageNo = `Page ${
+    const pageNo = `${
       document.querySelector('.pgNum').innerHTML.split('/')[0].split(':')[1]
     }`;
     const moduleName = document.querySelector('.moduleName').innerHTML;
