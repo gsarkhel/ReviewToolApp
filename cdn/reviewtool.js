@@ -1,5 +1,4 @@
 function reviewToolClass(access_token, course_uuid, add_comment) {
-  let currentSelectedButton = '';
   // ================================
   const reviewToolLightBox = document.createElement('div');
   reviewToolLightBox.setAttribute('class', 'reviewToolLightBox');
@@ -8,81 +7,53 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   const reviewToolWrapper = document.createElement('div');
   reviewToolWrapper.setAttribute('class', 'reviewToolWrapper');
   document.querySelector('body').append(reviewToolWrapper);
-  // ================================
-  function createButton(text, id, holder) {
-    const button = document.createElement('div');
-    button.setAttribute('id', id);
-    button.setAttribute('class', 'commbutton');
-    holder.append(button);
-    button.addEventListener('click', butnEvent);
-    // -----------
-    const buttonTxt = document.createElement('div');
-    buttonTxt.innerText = text;
-    buttonTxt.setAttribute('class', 'commbuttontext');
-    button.append(buttonTxt);
-    return button;
-  }
-  // ================================
-  const closeBtn = createButton('X', 'closeBtn', reviewToolWrapper);
+
+  // function createButton(text, id, holder) {
+  //   const button = document.createElement('div');
+  //   button.setAttribute('id', id);
+  //   button.setAttribute('class', 'commbutton');
+  //   holder.append(button);
+  //   button.addEventListener('click', butnEvent);
+  //   // -----------
+  //   const buttonTxt = document.createElement('div');
+  //   buttonTxt.innerText = text;
+  //   buttonTxt.setAttribute('class', 'commbuttontext');
+  //   button.append(buttonTxt);
+  //   return button;
+  // }
+  // // ================================
   if (add_comment === 'true') {
-    const addComBtn = createButton(
-      'Add Comment',
-      'addComBtn',
-      reviewToolWrapper
-    );
+    const revTool = document.getElementById('revTool');
+    revTool.style.visibility = 'visible';
+    revTool.addEventListener('click', openComment);
   }
-  const viewComBtn = createButton(
-    'View Comments',
-    'viewComBtn',
-    reviewToolWrapper
-  );
   // ================================
   // ================================
   const framePanel = document.createElement('div');
   framePanel.setAttribute('class', 'framePanel');
   reviewToolWrapper.append(framePanel);
   // ================================
-  // ================================
   const iframePanel = document.createElement('iframe');
   iframePanel.setAttribute('class', 'iframePanel');
+  iframePanel.setAttribute('src', 'https://mlcoursereviewtool.mediantlabs.com/public/api/add_comment');
   framePanel.append(iframePanel);
+  // ================================
+  const closeBtn = document.createElement('div');
+  closeBtn.setAttribute('id', 'closebtn');
+  closeBtn.innerText = 'X';
+  reviewToolWrapper.append(closeBtn);
+  closeBtn.addEventListener('click', closeComment);
   // ================================
   // EVENTS
   // ================================
-  function butnEvent(event) {
-    currentSelectedButton = event.currentTarget.getAttribute('id');
-
-    const elements = document.querySelectorAll('.commbutton');
-    elements.forEach((element) => {
-      element.classList.remove('selected');
-    });
-
-    if (currentSelectedButton === 'closeBtn') {
-      reviewToolLightBox.classList.remove('show');
-      reviewToolWrapper.classList.remove('opened');
-      closeBtn.classList.remove('show');
-    } else {
-      if (currentSelectedButton === 'addComBtn') {
-        iframePanel.setAttribute(
-          'src',
-          //'http://reviewtool.aqbstaging.com/course_upload/ReviewToolApp/index.html'
-          'https://mlcoursereviewtool.mediantlabs.com/public/api/add_comment'
-        );
-      } else {
-        iframePanel.setAttribute(
-          'src',
-          //'http://reviewtool.aqbstaging.com/course_upload/ReviewToolApp/index.html'
-          'https://mlcoursereviewtool.mediantlabs.com/public/api/view_comment'
-        );
-      }
-      reviewToolLightBox.classList.add('show');
-      reviewToolWrapper.classList.add('opened');
-      closeBtn.classList.add('show');
-      const target = event.currentTarget;
-      target.classList.add('selected');
-    }
-    // ================================
-    sendDataToFrame();
+  function openComment(event) {
+    reviewToolLightBox.classList.add('show');
+    reviewToolWrapper.classList.add('show');
+  }
+  // ================================
+  function closeComment(event) {
+    reviewToolLightBox.classList.remove('show');
+    reviewToolWrapper.classList.remove('show');
   }
   // ================================
   // ================================
@@ -114,14 +85,20 @@ function connector() {
       get: (searchParams, prop) => searchParams.get(prop),
     }
   );
-  // const access_token = params.access_token;
-  // const course_uuid = params.course_uuid;
-  if (params.access_token !== null) {
-    reviewToolClass(
-      params.access_token,
-      params.course_uuid,
-      params.add_comment
-    );
-  }
+  // if (params.access_token !== null) {
+  //   reviewToolClass(
+  //     params.access_token,
+  //     params.course_uuid,
+  //     params.add_comment
+  //   );
+  // }
+
+  // OPEN THE BELOW SECTION ONLY FOR DEV PURPOSE
+  reviewToolClass(
+    '9|Ckhb6IXr2o9fV48QU3IIiQVDWXUdzHYD49f2uc9O31a30f92',
+    'yNPDnOPkgJxJqjwF',
+    'true'
+  );
+  // ========================
 }
 window.addEventListener('load', connector);
