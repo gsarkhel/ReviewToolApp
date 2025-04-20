@@ -1,3 +1,16 @@
+.pencilbutton {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background: linear-gradient(to top, #1b9d71, #3c7e83);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
 .reviewToolLightBox {
   position: absolute;
   left: -0;

@@ -1,5 +1,11 @@
 function reviewToolClass(access_token, course_uuid, add_comment) {
   // ================================
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href =
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css'; // path to your CSS file
+  document.head.appendChild(link);
+  // ================================
   const reviewToolLightBox = document.createElement('div');
   reviewToolLightBox.setAttribute('class', 'reviewToolLightBox');
   document.querySelector('body').append(reviewToolLightBox);
@@ -10,6 +16,11 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   // // ================================
   if (add_comment === 'true') {
     const revTool = document.getElementById('revTool');
+    revTool.replaceChildren();
+    const pencil = document.createElement('div');
+    pencil.classList.add('pencilbutton');
+    pencil.innerHTML = '<i class="fas fa-pencil-alt"></i>';
+    revTool.append(pencil);
     revTool.style.visibility = 'visible';
     revTool.addEventListener('click', openComment);
   }
@@ -21,7 +32,10 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   // ================================
   const iframePanel = document.createElement('iframe');
   iframePanel.setAttribute('class', 'iframePanel');
-  iframePanel.setAttribute('src', 'https://mlcoursereviewtool.mediantlabs.com/public/api/add_comment');
+  iframePanel.setAttribute(
+    'src',
+    'https://mlcoursereviewtool.mediantlabs.com/public/api/add_comment'
+  );
   framePanel.append(iframePanel);
   // ================================
   const closeBtn = document.createElement('div');
@@ -56,7 +70,10 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
       document.querySelector('.pgNum').innerHTML.split('/')[0].split(':')[1]
     }`;
     const moduleName = document.querySelector('.moduleName').innerHTML;
-    console.log('sendDataToFrame', `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`);
+    console.log(
+      'sendDataToFrame',
+      `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`
+    );
     iframePanel.contentWindow.postMessage(
       {
         type: 'fromCourse',
