@@ -7,20 +7,6 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   const reviewToolWrapper = document.createElement('div');
   reviewToolWrapper.setAttribute('class', 'reviewToolWrapper');
   document.querySelector('body').append(reviewToolWrapper);
-
-  // function createButton(text, id, holder) {
-  //   const button = document.createElement('div');
-  //   button.setAttribute('id', id);
-  //   button.setAttribute('class', 'commbutton');
-  //   holder.append(button);
-  //   button.addEventListener('click', butnEvent);
-  //   // -----------
-  //   const buttonTxt = document.createElement('div');
-  //   buttonTxt.innerText = text;
-  //   buttonTxt.setAttribute('class', 'commbuttontext');
-  //   button.append(buttonTxt);
-  //   return button;
-  // }
   // // ================================
   if (add_comment === 'true') {
     const revTool = document.getElementById('revTool');
@@ -47,8 +33,10 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   // EVENTS
   // ================================
   function openComment(event) {
+    fnAudioVideoPause(true); // Pause the video when opening the comment box
     reviewToolLightBox.classList.add('show');
     reviewToolWrapper.classList.add('show');
+    sendDataToFrame();
   }
   // ================================
   function closeComment(event) {
@@ -68,10 +56,11 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
       document.querySelector('.pgNum').innerHTML.split('/')[0].split(':')[1]
     }`;
     const moduleName = document.querySelector('.moduleName').innerHTML;
+    console.log('sendDataToFrame', `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`);
     iframePanel.contentWindow.postMessage(
       {
         type: 'fromCourse',
-        text: `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}", "selected": "${currentSelectedButton}"}`,
+        text: `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`,
       }, // Message data
       '*' // Allowed domain (use "*" to allow all, but it's unsafe)
     );
