@@ -91,20 +91,20 @@ function connector() {
       get: (searchParams, prop) => searchParams.get(prop),
     }
   );
-  // if (params.access_token !== null) {
-  //   reviewToolClass(
-  //     params.access_token,
-  //     params.course_uuid,
-  //     params.add_comment
-  //   );
-  // }
+  if (params.access_token !== null) {
+    reviewToolClass(
+      params.access_token,
+      params.course_uuid,
+      params.add_comment
+    );
+  }
 
   // OPEN THE BELOW SECTION ONLY FOR DEV PURPOSE
-  reviewToolClass(
-    '9|Ckhb6IXr2o9fV48QU3IIiQVDWXUdzHYD49f2uc9O31a30f92',
-    'yNPDnOPkgJxJqjwF',
-    'true'
-  );
+  // reviewToolClass(
+  //   '9|Ckhb6IXr2o9fV48QU3IIiQVDWXUdzHYD49f2uc9O31a30f92',
+  //   'yNPDnOPkgJxJqjwF',
+  //   'true'
+  // );
   // ========================
 }
 window.addEventListener('load', connector);
