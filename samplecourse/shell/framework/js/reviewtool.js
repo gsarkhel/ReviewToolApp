@@ -60,8 +60,10 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   // ================================
   // ================================
   window.addEventListener('message', (event) => {
-    if (('Received message parent:', event.data.type === 'getData')) {
+    if (event.data.type === 'getData') {
       sendDataToFrame();
+    } else if (event.data.type === 'closewin') {
+      closeComment();
     }
   });
   // ================================
