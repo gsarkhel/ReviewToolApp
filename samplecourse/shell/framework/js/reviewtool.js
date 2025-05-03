@@ -18,8 +18,8 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
     fnAudioVideoPause(true); // Pause the video when opening the comment box
     const channel = new BroadcastChannel('my_channel');
     commentWindow = window.open(
-      'http://localhost:8000/reviewer/add_comment',
-      '_blank'
+      'http://reviewtool.aqbstaging.com/reviewtool-olive/public/reviewer/add_comment',
+      'viewCommentsTab'
     );
     sendDataToFrame();
   }
@@ -33,19 +33,17 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   });
   // ================================
   function sendDataToFrame() {
-    const pageNo = `${
-      document.querySelector('.pgNum').innerHTML.split('/')[0].split(':')[1]
-    }`;
+    const pageNo = currPageNum;
     const moduleName = document.querySelector('.moduleName').innerHTML;
     console.log(
       'sendDataToFrame',
-      `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`
+      `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleNo":"${currModule}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`
     );
     commentWindow &&
       commentWindow.postMessage(
         {
           type: 'fromCourse',
-          text: `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`,
+          text: `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleNo":"${currModule}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`,
         }, // Message data
         '*' // Allowed domain (use "*" to allow all, but it's unsafe)
       );
@@ -59,20 +57,20 @@ function connector() {
       get: (searchParams, prop) => searchParams.get(prop),
     }
   );
-  // if (params.access_token !== null) {
-  //   reviewToolClass(
-  //     params.access_token,
-  //     params.course_uuid,
-  //     params.add_comment
-  //   );
-  // }
+  if (params.access_token !== null) {
+    reviewToolClass(
+      params.access_token,
+      params.course_uuid,
+      params.add_comment
+    );
+  }
 
-  // OPEN THE BELOW SECTION ONLY FOR DEV PURPOSE
-  reviewToolClass(
-    '9|Ckhb6IXr2o9fV48QU3IIiQVDWXUdzHYD49f2uc9O31a30f92',
-    'yNPDnOPkgJxJqjwF',
-    'true'
-  );
+  // // OPEN THE BELOW SECTION ONLY FOR DEV PURPOSE
+  // reviewToolClass(
+  //   '9|Ckhb6IXr2o9fV48QU3IIiQVDWXUdzHYD49f2uc9O31a30f92',
+  //   'yNPDnOPkgJxJqjwF',
+  //   'true'
+  // );
   // ========================
 }
 window.addEventListener('load', connector);
