@@ -1,19 +1,6 @@
 function reviewToolClass(access_token, course_uuid, add_comment) {
+  let commentWindow = null;
   // ================================
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href =
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css'; // path to your CSS file
-  document.head.appendChild(link);
-  // ================================
-  const reviewToolLightBox = document.createElement('div');
-  reviewToolLightBox.setAttribute('class', 'reviewToolLightBox');
-  document.querySelector('body').append(reviewToolLightBox);
-  // ================================
-  const reviewToolWrapper = document.createElement('div');
-  reviewToolWrapper.setAttribute('class', 'reviewToolWrapper');
-  document.querySelector('body').append(reviewToolWrapper);
-  // // ================================
   if (add_comment === 'true') {
     const revTool = document.getElementById('revTool');
     revTool.replaceChildren();
@@ -25,39 +12,17 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
     revTool.addEventListener('click', openComment);
   }
   // ================================
-  // ================================
-  const framePanel = document.createElement('div');
-  framePanel.setAttribute('class', 'framePanel');
-  reviewToolWrapper.append(framePanel);
-  // ================================
-  const iframePanel = document.createElement('iframe');
-  iframePanel.setAttribute('class', 'iframePanel');
-  iframePanel.setAttribute(
-    'src',
-    'https://mlcoursereviewtool.mediantlabs.com/public/api/add_comment'
-  );
-  framePanel.append(iframePanel);
-  // ================================
-  const closeBtn = document.createElement('div');
-  closeBtn.setAttribute('id', 'closebtn');
-  closeBtn.innerText = 'X';
-  reviewToolWrapper.append(closeBtn);
-  closeBtn.addEventListener('click', closeComment);
-  // ================================
   // EVENTS
   // ================================
   function openComment(event) {
     fnAudioVideoPause(true); // Pause the video when opening the comment box
-    reviewToolLightBox.classList.add('show');
-    reviewToolWrapper.classList.add('show');
+    const channel = new BroadcastChannel('my_channel');
+    commentWindow = window.open(
+      'http://reviewtool.aqbstaging.com/reviewtool-olive/public/reviewer/add_comment',
+      'viewCommentsTab'
+    );
     sendDataToFrame();
   }
-  // ================================
-  function closeComment(event) {
-    reviewToolLightBox.classList.remove('show');
-    reviewToolWrapper.classList.remove('show');
-  }
-  // ================================
   // ================================
   window.addEventListener('message', (event) => {
     if (event.data.type === 'getData') {
@@ -68,21 +33,20 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
   });
   // ================================
   function sendDataToFrame() {
-    const pageNo = `${
-      document.querySelector('.pgNum').innerHTML.split('/')[0].split(':')[1]
-    }`;
+    const pageNo = currPageNum;
     const moduleName = document.querySelector('.moduleName').innerHTML;
     console.log(
       'sendDataToFrame',
-      `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`
+      `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleNo":"${currModule}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`
     );
-    iframePanel.contentWindow.postMessage(
-      {
-        type: 'fromCourse',
-        text: `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`,
-      }, // Message data
-      '*' // Allowed domain (use "*" to allow all, but it's unsafe)
-    );
+    commentWindow &&
+      commentWindow.postMessage(
+        {
+          type: 'fromCourse',
+          text: `{"access_token": "${access_token}", "course_uuid": "${course_uuid}", "moduleNo":"${currModule}", "moduleName":"${moduleName}", "pageNo": "${pageNo}"}`,
+        }, // Message data
+        '*' // Allowed domain (use "*" to allow all, but it's unsafe)
+      );
   }
 }
 
@@ -101,7 +65,7 @@ function connector() {
     );
   }
 
-  // OPEN THE BELOW SECTION ONLY FOR DEV PURPOSE
+  // // OPEN THE BELOW SECTION ONLY FOR DEV PURPOSE
   // reviewToolClass(
   //   '9|Ckhb6IXr2o9fV48QU3IIiQVDWXUdzHYD49f2uc9O31a30f92',
   //   'yNPDnOPkgJxJqjwF',
