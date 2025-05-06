@@ -1,9 +1,3 @@
-const link = document.createElement('link');
-link.rel = 'stylesheet';
-link.href =
-  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css';
-document.head.appendChild(link);
-// ================================
 function reviewToolClass(access_token, course_uuid, add_comment) {
   let commentWindow = null;
   // ================================
@@ -24,7 +18,7 @@ function reviewToolClass(access_token, course_uuid, add_comment) {
     fnAudioVideoPause(true); // Pause the video when opening the comment box
     const channel = new BroadcastChannel('my_channel');
     commentWindow = window.open(
-      'http://reviewtool.aqbstaging.com/reviewtool-olive/public/reviewer/add_comment',
+      'https://mlcoursereviewtool.mediantlabs.com/public/reviewer/add_comment',
       'viewCommentsTab'
     );
     sendDataToFrame();
